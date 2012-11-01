@@ -111,7 +111,7 @@ title: l33tsource
     </div>
 </div>
 <div class="row" id="blogPosts">
-    {% for post in site.posts %}
+    {% for post in site.posts limit: 4 %}
     {% assign content = post.content %}
         <div class="span3">
             <h4>{{ post.title }}</h4>
