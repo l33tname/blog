@@ -5,6 +5,8 @@ published: true
 categories: [homepage, we]
 tags: [new Page, online, Page]
 date: 01/11/2012
+link: /blog/45
+description: blblblblblblbl
 ---
 
 ## New Page is Online
