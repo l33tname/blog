@@ -1,206 +1,176 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>l33tsource</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        
-        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-
-        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
-        <div class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <!--<a class="brand" href="#">code2source.ch</a>-->
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-header">All Projects</li>
-                                    <li><a href="#">Overview</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Each Project</li>
-                                    <li><a href="#">Project 1</a></li>
-                                    <li><a href="#">Project 2</a></li>
-                                    <li><a href="#">Project 3</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <!--<form class="navbar-form pull-right">
-                            <input class="span2" type="text" placeholder="Email">
-                            <input class="span2" type="password" placeholder="Password">
-                            <button type="submit" class="btn">Sign in</button>
-                        </form>-->
-                        <form class="navbar-form pull-right" method="get">
-                            <input class="search-query span2" type="search" placeholder="Search">
-                             
-                            <!-- <button type="submit" class="btn">Search</button> -->
-                            <button type="submit" class="btn"><i class="icon-search"></i></button>
-                        </form>
-                    </div><!--/.nav-collapse -->
-                </div>
-            </div>
-        </div>
-
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
         <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <!--<a class="brand" href="#">code2source.ch</a>-->
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-header">All Projects</li>
+                            <li><a href="#">Overview</a></li>
+                            <li class="divider"></li>
+                            <li class="nav-header">Each Project</li>
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                            <li><a href="#">Project 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--<form class="navbar-form pull-right">
+                    <input class="span2" type="text" placeholder="Email">
+                    <input class="span2" type="password" placeholder="Password">
+                    <button type="submit" class="btn">Sign in</button>
+                </form>-->
+                <form class="navbar-form pull-right" method="get">
+                    <input class="search-query span2" type="search" placeholder="Search">
+                             
+                    <!-- <button type="submit" class="btn">Search</button> -->
+                    <button type="submit" class="btn"><i class="icon-search"></i></button>
+                </form>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
 
-            <!-- Main hero unit for a primary marketing message or call to action -->
-            <!--<div class="hero-unit">
-                <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-            </div>-->
-            <div class="row">
-                <div class="span12">
-                    <h1>Welcome</h1>
-                    <p>On this Page ...</p>
-                </div>
-            </div>
+<div class="container">
 
-            <div class="row">
-                <div class="span12">
-                    <h1>Featured Projects</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="span4">
-                    <h2>Project 1</h2>
-                    <div class="carousel slide" id="firstProjectCarousel">
-                        <div class="carousel-inner">
-                            <div class="item">
-                                <img alt="" src="img/slider/slide1.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
-                            <div class="item active">
-                                <img alt="" src="img/slider/slide2.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img alt="" src="img/slider/slide3.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <!--<div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    </div>-->
+    <div class="row">
+        <div class="span12">
+            <h1>Welcome</h1>
+            <p>On this Page ...</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h1>Featured Projects</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span4">
+            <h2>Project 1</h2>
+            <div class="carousel slide" id="firstProjectCarousel">
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img alt="" src="img/slider/slide1.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
                         </div>
-                        <a data-slide="prev" href="#firstProjectCarousel" class="left carousel-control">‹</a>
-                        <a data-slide="next" href="#firstProjectCarousel" class="right carousel-control">›</a>
                     </div>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="span4">
-                    <h2>Project 2</h2>
-                    <div class="carousel slide" id="secondProjectCarousel">
-                        <div class="carousel-inner">
-                            <div class="item">
-                                <img alt="" src="img/slider/slide1.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
-                            <div class="item active">
-                                <img alt="" src="img/slider/slide2.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img alt="" src="img/slider/slide3.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
+                    <div class="item active">
+                        <img alt="" src="img/slider/slide2.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
                         </div>
-                        <a data-slide="prev" href="#secondProjectCarousel" class="left carousel-control">‹</a>
-                        <a data-slide="next" href="#secondProjectCarousel" class="right carousel-control">›</a>
                     </div>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-               </div>
-                <div class="span4">
-                    <h2>Project 3</h2>
-                    <div class="carousel slide" id="thirdProjectCarousel">
-                        <div class="carousel-inner">
-                            <div class="item">
-                                <img alt="" src="img/slider/slide1.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
-                            <div class="item active">
-                                <img alt="" src="img/slider/slide2.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img alt="" src="img/slider/slide3.png">
-                                <div class="carousel-caption">
-                                    <p>Some Text ....</p>
-                                </div>
-                            </div>
+                    <div class="item">
+                        <img alt="" src="img/slider/slide3.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
                         </div>
-                        <a data-slide="prev" href="#thirdProjectCarousel" class="left carousel-control">‹</a>
-                        <a data-slide="next" href="#thirdProjectCarousel" class="right carousel-control">›</a>
                     </div>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
                 </div>
+                <a data-slide="prev" href="#firstProjectCarousel" class="left carousel-control">‹</a>
+                <a data-slide="next" href="#firstProjectCarousel" class="right carousel-control">›</a>
             </div>
-
-            <div class="row">
-                <div class="span12">
-                    <h1>Blog Posts</h1>
-                </div>
-            </div>
-            <div class="row" id="blogPosts">
-                {% for post in site.posts %}
-                {% assign content = post.content %}
-                    <div class="span3">
-                        <h4>{{ post.title }}</h4>
-                        <p>{{ content }}</p>
-                        <p><a class="btn" href="#">View details &raquo;</a></p>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <h2>Project 2</h2>
+            <div class="carousel slide" id="secondProjectCarousel">
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img alt="" src="img/slider/slide1.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
+                        </div>
                     </div>
-                {% endfor %}
+                    <div class="item active">
+                        <img alt="" src="img/slider/slide2.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="" src="img/slider/slide3.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
+                        </div>
+                    </div>
+                </div>
+                <a data-slide="prev" href="#secondProjectCarousel" class="left carousel-control">‹</a>
+                <a data-slide="next" href="#secondProjectCarousel" class="right carousel-control">›</a>
             </div>
-            <hr>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <h2>Project 3</h2>
+            <div class="carousel slide" id="thirdProjectCarousel">
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img alt="" src="img/slider/slide1.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <img alt="" src="img/slider/slide2.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="" src="img/slider/slide3.png">
+                        <div class="carousel-caption">
+                            <p>Some Text ....</p>
+                        </div>
+                    </div>
+                </div>
+                <a data-slide="prev" href="#thirdProjectCarousel" class="left carousel-control">‹</a>
+                <a data-slide="next" href="#thirdProjectCarousel" class="right carousel-control">›</a>
+            </div>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+    </div>
 
-            <footer>
-                <p>&copy; code2source.ch 2012</p>
-            </footer>
+    <div class="row">
+        <div class="span12">
+            <h1>Blog Posts</h1>
+        </div>
+    </div>
+    <div class="row" id="blogPosts">
+        {% for post in site.posts %}
+        {% assign content = post.content %}
+            <div class="span3">
+                <h4>{{ post.title }}</h4>
+                <p>{{ content }}</p>
+                <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div>
+        {% endfor %}
+    </div>
+    <hr>
 
-        </div> <!-- /container -->
+    <footer>
+        <p>&copy; l33dsource.com 2012</p>
+    </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
-
-        <script src="{{ ASSET_PATH }}/js/vendor/bootstrap.min.js"></script>
-
-        <script src="{{ ASSET_PATH }}/js/main.js"></script>
-    </body>
-</html>
+</div>
