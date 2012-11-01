@@ -7,7 +7,7 @@ tags: [new Page, online, Page]
 date: 01/11/2012
 ---
 
-## New Page is Onine
+## New Page is Online
 1. Test
 2. Test2
 3. ...
