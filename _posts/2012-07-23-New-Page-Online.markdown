@@ -1,12 +1,18 @@
 ---
 layout: post
-title: New Page Online
 published: true
 categories: [homepage, we]
 tags: [new Page, online, Page]
-date: 01/11/2012
-link: /blog/45
+
+title: New Page Online
 description: blblblblblblbl
+link: /blog/45
+date: 01/11/2012
+
+writerName: A. Nonymous
+writerEmail: anonymous@example.net
+writerLink: http://www.example.net
+
 ---
 
 ## New Page is Online
