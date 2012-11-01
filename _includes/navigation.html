@@ -38,23 +38,23 @@
         $('#contact').removeClass('active');
         $('#projects').removeClass('active');
         
-        if ($(location).attr('href').match(/home$/)) {
+        if (window.location.pathname.match(/home$/)) {
             $('#home').addClass('active');
         }
 
-        if ($(location).attr('href').match(/blog$/)) {
+        if (window.location.pathname.match(/blog$/)) {
             $('#blog').addClass('active');
         }
 
-        if ($(location).attr('href').match(/about$/)) {
+        if (window.location.pathname.match(/about$/)) {
             $('#about').addClass('active');
         }
 
-        if ($(location).attr('href').match(/contact$/)) {
+        if (window.location.pathname.match(/contact$/)) {
             $('#contact').addClass('active');
         }
 
-        if ($(location).attr('href').match(/projects$/)) {
+        if (window.location.pathname.match(/projects$/)) {
             $('#projects').addClass('active');
         }
 
