@@ -9,22 +9,11 @@
             <!--<a class="brand" href="#">code2source.ch</a>-->
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="/blog/">Blog</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-header">All Projects</li>
-                            <li><a href="#">Overview</a></li>
-                            <li class="divider"></li>
-                            <li class="nav-header">Each Project</li>
-                            <li><a href="#">Project 1</a></li>
-                            <li><a href="#">Project 2</a></li>
-                            <li><a href="#">Project 3</a></li>
-                        </ul>
-                    </li>
+                    <li id="home" class="active"><a href="/">Home</a></li>
+                    <li id="blog"><a href="/blog/">Blog</a></li>
+                    <li id="about"><a href="#">About</a></li>
+                    <li id="contact"><a href="#">Contact</a></li>
+                    <li id="projects"><a href="#">Projects</a></li>
                 </ul>
                 <!--<form class="navbar-form pull-right">
                     <input class="span2" type="text" placeholder="Email">
@@ -40,3 +29,35 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#home').removeClass('active');
+        $('#blog').removeClass('active');
+        $('#about').removeClass('active');
+        $('#contact').removeClass('active');
+        $('#projects').removeClass('active');
+        
+        if ($(location).attr('href').match(/home$/)) {
+            $('#home').addClass('active');
+        }
+
+        if ($(location).attr('href').match(/blog$/)) {
+            $('#blog').addClass('active');
+        }
+
+        if ($(location).attr('href').match(/about$/)) {
+            $('#about').addClass('active');
+        }
+
+        if ($(location).attr('href').match(/contact$/)) {
+            $('#contact').addClass('active');
+        }
+
+        if ($(location).attr('href').match(/projects$/)) {
+            $('#projects').addClass('active');
+        }
+
+    });
+    
+</script>
