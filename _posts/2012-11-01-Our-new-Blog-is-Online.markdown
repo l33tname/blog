@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: main
 published: true
 categories: 
 tags: 
 
-title: Our new Blog works
+title: Our new Blog is Online
 description: It's still working ;)
-link: /blog/12
+link: /2012/11/01/Our-new-Blog-is-Online.html
 date: 01/11/2012
 
 writerName: A. Nonymous
@@ -14,8 +14,6 @@ writerEmail: anonymous@example.net
 writerLink: http://www.example.net
 ---
 
-# Our New Blog works
+# Our New Blog is online
 
-This is:
-1. really cool
-2. and funny
+Juppi

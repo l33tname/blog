@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: main
 published: true
 categories: [homepage, we]
 tags: [new Page, online, Page]
