@@ -6,7 +6,7 @@ tags:
 
 title: Lorem
 description: Lore imsum dolore ..
-link: /blog/42
+link: /2012/11/01/Lorem.html
 date: 01/11/2012
 
 ---
