@@ -6,8 +6,6 @@ tags: [new Page, online, Page]
 
 title: New Page Online
 description: blblblblblblbl
-link: /blog/45
-date: 01/11/2012
 
 writerName: A. Nonymous
 writerEmail: anonymous@example.net

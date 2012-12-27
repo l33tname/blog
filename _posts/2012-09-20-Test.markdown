@@ -6,8 +6,6 @@ tags: [new Page, online, Page]
 
 title: Test
 description: Simple Test-Page
-link: /blog/42
-date: 01/11/2012
 
 ---
 
