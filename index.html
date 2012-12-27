@@ -143,9 +143,8 @@ title: l33tsource
         <h1>Blog Posts</h1>
     </div>
 </div>
-<div class="row" id="blogPosts">
-  {% unless post.type == "post"%}  
-    {% for post in site.posts limit: 4 %}
+<div class="row" id="blogPosts"> 
+    {% for post in site.categories.post limit: 4 %}
       {% assign content = post.content %}
       <div class="span3">
           <h4><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h4>
@@ -153,5 +152,4 @@ title: l33tsource
           <p><a class="btn" href="{{ post.url }}">View details &raquo;</a></p>
       </div>
     {% endfor %}
-  {% endunless %}
 </div>
