@@ -2,7 +2,7 @@
 layout: post
 published: true
 categories: [blog]
-tags: 
+tags: [Blog, online, new, Page]
 
 title: Our new Blog is Online
 description: It's still working ;)
