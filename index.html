@@ -111,12 +111,14 @@ title: l33tsource
     </div>
 </div>
 <div class="row" id="blogPosts">
-    {% for post in site.type == "post" limit: 4 %}
-    {% assign content = post.content %}
-        <div class="span3">
-            <h4><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h4>
-            <p>{{ post.description }}</p>
-            <p><a class="btn" href="{{ post.url }}">View details &raquo;</a></p>
-        </div>
+  {% unless post.type == "post"%}  
+    {% for post in site.posts limit: 4 %}
+      {% assign content = post.content %}
+      <div class="span3">
+          <h4><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h4>
+          <p>{{ post.description }}</p>
+          <p><a class="btn" href="{{ post.url }}">View details &raquo;</a></p>
+      </div>
     {% endfor %}
+  {% endunless %}
 </div>
