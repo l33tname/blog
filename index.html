@@ -16,8 +16,7 @@ title: l33tsource
     </div>
 </div>
 <div class="row">
-    {% unless post.type == "project"%}  
-    {% for post in site.posts limit: 3 %}
+    {% for post in site.categories.project limit: 3 %}
       {% assign content = post.content %}
       <div class="span4">
         <h2><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h2>
@@ -49,7 +48,6 @@ title: l33tsource
       <p><a class="btn" href="{{ post.url }}">View details &raquo;</a></p>
     </div>
     {% endfor %}
-  {% endunless %}
 
     <!--<div class="span4">
         <h2>Project 1</h2>

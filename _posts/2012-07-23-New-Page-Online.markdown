@@ -1,9 +1,8 @@
 ---
 layout: main
 published: true
-categories:
+categories: [post]
 tags: [new Page, online, Page]
-type: post
 
 title: New Page Online
 description: blblblblblblbl

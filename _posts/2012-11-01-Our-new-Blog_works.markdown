@@ -1,9 +1,8 @@
 ---
 layout: main
 published: true
-categories: 
+categories: [post]
 tags: 
-type: post
 
 title: Our new Blog works
 description: It's still working ;) !!

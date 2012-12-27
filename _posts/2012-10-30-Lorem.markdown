@@ -1,9 +1,8 @@
 ---
 layout: main
 published: true
-categories:
+categories: [post]
 tags: 
-type: post
 
 title: Lorem
 description: Lore imsum dolore ..
