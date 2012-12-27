@@ -1,7 +1,7 @@
 ---
 layout: main
 published: true
-categories: [homepage, we]
+categories:
 tags: [new Page, online, Page]
 
 title: Test
