@@ -1,7 +1,7 @@
 ---
 layout: main
 published: true
-categories: [post]
+categories: [blog]
 tags: [new Page, online, Page]
 
 title: New Page Online
