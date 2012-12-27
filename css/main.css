@@ -8,3 +8,9 @@ body {
     padding-top: 60px;
     padding-bottom: 40px;
 }
+
+a.headerLink
+{
+  color: #000;
+  text-decoration: none;
+}
