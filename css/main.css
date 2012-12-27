@@ -14,3 +14,8 @@ a.headerLink
   color: #000;
   text-decoration: none;
 }
+
+a.headerLink:hover
+{
+  text-decoration: underline;
+}
