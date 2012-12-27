@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 published: true
 categories: [blog]
 tags: [new Page, online, Page]
