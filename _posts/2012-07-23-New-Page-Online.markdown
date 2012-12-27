@@ -3,13 +3,10 @@ layout: main
 published: true
 categories:
 tags: [new Page, online, Page]
+type: post
 
 title: New Page Online
 description: blblblblblblbl
-
-writerName: A. Nonymous
-writerEmail: anonymous@example.net
-writerLink: http://www.example.net
 
 ---
 
