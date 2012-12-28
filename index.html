@@ -20,7 +20,7 @@ title: l33tsource
       {% assign content = post.content %}
       <div class="span4">
         <h2><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h2>
-        <div class="carousel slide" id="{{ post.title }}Carousel">
+        <div class="carousel slide" id="{{ forloop.index }}projectCarousel">
           <div class="carousel-inner">
             {% for image in post.images %}
               {% if forloop.first %}
@@ -34,8 +34,8 @@ title: l33tsource
               {% endif %}	
             {% endfor %}
           </div>
-          <a data-slide="prev" href="#{{ post.title }}Carousel" class="left carousel-control">‹</a>
-          <a data-slide="next" href="#{{ post.title }}Carousel" class="right carousel-control">›</a>
+          <a data-slide="prev" href="#{{ forloop.index }}projectCarousel" class="left carousel-control">‹</a>
+          <a data-slide="next" href="#{{ forloop.index }}projectCarousel" class="right carousel-control">›</a>
         </div>
       <p>{{ post.description }}</p>
       <p><a class="btn" href="{{ post.url }}">View details &raquo;</a></p>
