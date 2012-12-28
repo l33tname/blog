@@ -9,31 +9,27 @@ layout: main
 </div>
 
 <div class="row">
-  <div class="span12">
-	{% for post in site.posts %}
-	
-		{% if post.next %}		
-				{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-				{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-				{% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
-				{% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
-		{% endif %}
+    <div class="span12">
+    {% for post in site.posts %}
+        {% if post.next %}		
+            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+            {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+            {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+            {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+        {% endif %}
 		
-		{% if forloop.first %}				
-		
-    <h3>{{ post.date | date: '%Y' }}</h3>		
-    <h5>{{ post.date | date: '%B' }}</h5>		
-		{% else %}
-			<!-- all other posts -->								
-				{% if year != nyear %}	
-						<h3>{{ post.date | date: '%Y' }}</h3>		
-            <h5>{{ post.date | date: '%B' }}</h5>
-				{% elsif month != nmonth %}
-						<h5>{{ post.date | date: '%B' }}</h5>										
-				{% endif %}					
-	   {% endif %}	
-	   <p><a href="{{ post.url }}" class="headerLink">{{ post.date | date: "%d.%m.%Y" }} {{ post.title }}</a></p>
-    		   		
-	{% endfor %}			
-  </div>											
+        {% if forloop.first %}				
+            <h2>{{ post.date | date: '%Y' }}</h2>		
+            <h3>{{ post.date | date: '%B' }}</h3>		
+        {% else %}		
+            {% if year != nyear %}	
+                <h2>{{ post.date | date: '%Y' }}</h2>		
+                <h3>{{ post.date | date: '%B' }}</h3>
+            {% elsif month != nmonth %}
+                <h3>{{ post.date | date: '%B' }}</h3>										
+            {% endif %}					
+        {% endif %}	
+        <p><a href="{{ post.url }}" class="headerLink">{{ post.date | date: "%d.%m.%Y" }} {{ post.title }}</a></p>		
+    {% endfor %}			
+    </div>											
 </div>	
