@@ -1,0 +1,21 @@
+---
+layout: main
+---
+
+<div class="row">
+    <div class="span12">
+        <h1>Blog Posts Archiv</h1>
+    </div>
+</div>
+
+{% for post in site.categories.blog %}
+    {% assign content = post.content %}
+    <div class="row">
+        <div class="span3">
+            <p>{{ post.date | %d.%m.%Y" }}</p>
+        </div>
+        <div class="span9">
+            <p><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></p>
+        </div>
+    </div>        
+{% endfor %}
