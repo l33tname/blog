@@ -8,7 +8,7 @@ layout: main
     </div>
 </div>
 
-{% for post in site.categories.blog %}
+{% for post in site.categories.blog limit: 10 %}
     {% assign content = post.content %}
     <div class="row">
         <div class="span12">
@@ -17,3 +17,10 @@ layout: main
         </div>
     </div>        
 {% endfor %}
+
+<hr>
+<div class="row">
+    <div class="span12">
+        <p>For older post visit our <a href="/blog/archiv.html">blog archiv</a></p>
+    </div>
+</div>
