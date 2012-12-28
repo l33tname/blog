@@ -22,17 +22,19 @@ title: l33tsource
         <h2><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h2>
         <div class="carousel slide" id="{{ forloop.index }}projectCarousel">
           <div class="carousel-inner">
-            {% for image in post.images %}
-              {% if forloop.first %}
-                <div class="item active">
-                  <img alt="" src="{{ image }}">
-                </div>
-              {% else %}
-                <div class="item">
-                  <img alt="" src="{{ image }}">
-                </div>
-              {% endif %}	
-            {% endfor %}
+            {% if post.images.length > 0 %}
+              {% for image in post.images %}
+                {% if forloop.first %}
+                  <div class="item active">
+                    <img alt="" src="{{ image }}">
+                  </div>
+                {% else %}
+                  <div class="item">
+                    <img alt="" src="{{ image }}">
+                  </div>
+                {% endif %}	
+              {% endfor %}
+            {% endif %}
           </div>
           <a data-slide="prev" href="#{{ forloop.index }}projectCarousel" class="left carousel-control">‹</a>
           <a data-slide="next" href="#{{ forloop.index }}projectCarousel" class="right carousel-control">›</a>
