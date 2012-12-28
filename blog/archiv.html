@@ -12,7 +12,7 @@ layout: main
     {% assign content = post.content %}
     <div class="row">
         <div class="span3">
-            <p>{{ post.date | %d.%m.%Y" }}</p>
+            <p>{{ post.date | "%d.%m.%Y" }}</p>
         </div>
         <div class="span9">
             <p><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></p>
