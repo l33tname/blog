@@ -1,8 +1,9 @@
 ---
 Description: Hallo Welt, über diesen Blog
-publisched: true
+published: true
 categories: [blog]
 tags: [Hallo Welt, First Post]
+layout: main
 ---
 
 #Hallo Welt
