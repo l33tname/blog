@@ -1,5 +1,5 @@
 ---
-Description: Hallo Welt, über diesen Blog
+description: Hallo Welt, über diesen Blog
 published: true
 categories: [blog]
 tags: [Hallo Welt, First Post]
