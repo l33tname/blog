@@ -5,6 +5,8 @@ categories: [project]
 tags: [test, project]
 layout: project
 images: ["img/slider/slide1.png", "img/slider/slide2.png", "img/slider/slide3.png", "img/slider/slide3.png"]
+gitrepositoryname: githubwidget
+gitusername: l33tsource
 ---
 
 #Test Project

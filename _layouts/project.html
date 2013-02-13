@@ -9,14 +9,17 @@
       </div>
       <div class="span3">
         <div class=" well">
-          <h3>{{ title }}</h3>
-          <p>{{ description }}</p>
+          <h3>{{ page.title }}</h3>
+          <p>{{ page.description }}</p>
           <h4>Tags:</h4>
           <ul class="tag_box">
-            {% for tag in tags %}
+            {% for tag in page.tags %}
               <li>{{ tag }}</li>
             {% endfor %}
           </ul>
+          <h3>Git-Repository</h3>
+          <p>Username: {{ page.gitusername }}</p>
+          <p>Repositoryname: {{ page.gitrepositoryname }}</p>
         </div>
       </div>
     </div>
