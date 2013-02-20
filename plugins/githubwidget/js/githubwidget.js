@@ -28,7 +28,7 @@
       dataType: 'jsonp'
     }).done(function ( response ) {
       return $(this).append('<div class="githubwidget">' +
-            '<p class="githubwidgetHeader"><a href="https://github.com/' + response.data.full_name + '"><i class="icon-github"></i> ' + response.data.name + '</a></p>' +
+            '<p class="githubwidgetHeader"><a href="https://github.com/' + response.data.full_name + '"><i class="icon-github" style="line-height: 20px"></i> ' + response.data.name + '</a></p>' +
             '<table class="githubwidgetTable">' +
               '<tbody>' +
                   '<tr>' +
