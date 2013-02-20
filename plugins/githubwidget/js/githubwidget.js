@@ -16,7 +16,7 @@
     // Insert CSS
     if ($('link[href*="githubwidget.css"]').length == 0)
     {
-      $('head').append('<link rel="stylesheet" href="' + this.BASEPATH + '/css/githubwidget.css"><link rel="stylesheet" href="' + this.BASEPATH + '/css/font-awesome.css"><!--[if IE 7]><link rel="stylesheet" href="' + this.BASEPATH + '/css/font-awesome-ie7.css"><![endif]-->');
+      $('head').append('<link rel="stylesheet" href="' + this.BASEPATH + '/css/font-awesome.css"><!--[if IE 7]><link rel="stylesheet" href="' + this.BASEPATH + '/css/font-awesome-ie7.css"><![endif]--><link rel="stylesheet" href="' + this.BASEPATH + '/css/githubwidget.css">');
     }
 
     // Do your awesome plugin stuff here
@@ -28,7 +28,7 @@
       dataType: 'jsonp'
     }).done(function ( response ) {
       return $(this).append('<div class="githubwidget">' +
-            '<p class="githubwidgetHeader"><i class="icon-github"></i> <a href="https://github.com/' + response.data.full_name + '">' + response.data.name + '</a></p>' +
+            '<p class="githubwidgetHeader"><a href="https://github.com/' + response.data.full_name + '"><i class="icon-github"></i> ' + response.data.name + '</a></p>' +
             '<table class="githubwidgetTable">' +
               '<tbody>' +
                   '<tr>' +
