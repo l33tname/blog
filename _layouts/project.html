@@ -18,6 +18,7 @@
             {% endfor %}
           </ul>
           <h3>Git-Repository</h3>
+          <div id="repoInfo"></div>
           <p>Username: {{ page.gitusername }}</p>
           <p>Repositoryname: {{ page.gitrepositoryname }}</p>
         </div>
@@ -29,3 +30,8 @@
 </div>
 
 {% include scripts.html %}
+
+<script src="/plugins/githubwidget/githubwidget.js"></script>
+<script type="text/javascript">
+	$('#repoInfo').githubwidget({ user: '{{ page.gitusername }}', name: '{{ page.gitrepositoryname }}' });
+</script>
