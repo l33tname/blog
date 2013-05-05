@@ -12,7 +12,7 @@ title: l33tsource
     {% for post in site.categories.project limit: 3 %}
       {% assign content = post.content %}
       <div class="span4">
-        <h4><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h4>
+        <h3><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h3>
         <div class="carousel slide" id="{{ forloop.index }}projectCarousel">
           <div class="carousel-inner">
             {% for image in post.images %}
@@ -45,7 +45,7 @@ title: l33tsource
     {% for post in site.categories.blog limit: 4 %}
       {% assign content = post.content %}
       <div class="span3">
-          <h4><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h4>
+          <h3><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h3>
           <p>{{ post.description }}</p>
       </div>
     {% endfor %}
