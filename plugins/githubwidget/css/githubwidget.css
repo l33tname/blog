@@ -7,15 +7,15 @@ div.githubwidget
 
 div.githubwidget > p.githubwidgetHeader
 {
-    font-size: 40px;
+    font-size: 23px;
     padding:  0px;
     margin: 0px;
 }
 
 div.githubwidget > p.githubwidgetHeader i[class^="icon-"]
 {
-  margin-top: 12px;
-  margin-right:  12px;
+  margin-top: 6px;
+  margin-right: 6px;
 }
 
 div.githubwidget a
