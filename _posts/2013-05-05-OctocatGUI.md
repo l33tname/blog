@@ -1,7 +1,7 @@
 ---
 description: Ist eine Anwendung die alle Bilder von http://octodex.github.com/ herunterlädt und dann zufällig eines der Bilder anzuzeigt.
 published: true
-categories: [projekt]
+categories: [projekte]
 tags: [github, octodex, wpf]
 layout: project
 images: ["img/project/octocatgui/octocat_1.png", "img/project/octocatgui/octocat_2.png", "img/project/octocatgui/octocat_3.png"]
