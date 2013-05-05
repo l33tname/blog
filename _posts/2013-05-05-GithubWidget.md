@@ -1,7 +1,7 @@
 ---
 description: The idea was to create a small widget, where some infos about a Github-Repository are shown
 published: true
-categories: [project]
+categories: [projekt]
 tags: [github, project, javascript]
 layout: project
 images: ["img/project/githubwidget/githubwidget_1.png", "img/project/githubwidget/githubwidget_2.png"]
