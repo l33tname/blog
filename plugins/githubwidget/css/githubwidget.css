@@ -12,6 +12,12 @@ div.githubwidget > p.githubwidgetHeader
     margin: 0px;
 }
 
+div.githubwidget > p.githubwidgetHeader > i[class^="icon-"]
+{
+  margin-top: 12px;
+  margin-right:  12px;
+}
+
 div.githubwidget a
 {
     color: #000000;
