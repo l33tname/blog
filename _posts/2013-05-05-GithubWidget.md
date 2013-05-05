@@ -5,8 +5,8 @@ categories: [project]
 tags: [github, project, javascript]
 layout: project
 images: ["img/project/githubwidget/githubwidget_1.png", "img/project/githubwidget/githubwidget_2.png"]
-gitrepositoryname: t
-gitusername: sferik
+gitrepositoryname: githubwidget
+gitusername: l33tsource
 ---
 
 #GithubWidget
