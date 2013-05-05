@@ -12,7 +12,9 @@ plugins:     ./_plugins
 future:      true
 lsi:         false
 pygments:    false
-markdown:    maruku
+markdown: redcarpet2
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 permalink:   date
 
 maruku:
