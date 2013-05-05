@@ -41,7 +41,7 @@ The idea was to create a small widget, where some infos about a Github-Repositor
 		<div id="widgetDiv"></div>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/
-      1.8.2/jquery.min.js"></script>
+          1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="githubwidget/js/githubwidget.js"></script>
 		<script type="text/javascript">
 	    		$('#widgetDiv').githubwidget({ user: 'l33tsource', name: 'githubwidget' });
