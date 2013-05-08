@@ -31,7 +31,7 @@ You may need one of these packages to compile if you don't have them already.
 ##Driver quallity
 The drivers are really stable and I have no problems, no connection losses. And I tested the speed with netio and it's a bit slower than the windows drivers but I think most people, including me, can live with that. In the table you can see the speed differences between the linux and windows drivers.
 
-<table>
+<table class="table">
  <tr>
   <td>packet size</td>
   <td>Fedora 18 (TCP)</td>
