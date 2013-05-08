@@ -33,49 +33,49 @@ The drivers are really stable and I have no problems, no connection losses. And 
 
 <table class="table table-striped table-bordered">
  <tr>
-  <td>packet size</td>
-  <td>Fedora 18 (TCP)</td>
-  <td>Windows 8 (TCP)</td>
-  <td>Fedora 18 (UDP)</td>
-  <td>Windows 8 (UDP)</td>
+  <th>packet size</th>
+  <th>Fedora 18 (TCP)</th>
+  <th>Windows 8 (TCP)</th>
+  <th>Fedora 18 (UDP)</th>
+  <th>Windows 8 (UDP)</th>
  </tr>
  <tr>
-  <td>Receiving from client, packet size  1k</td>
+  <th>Receiving from client, packet size  1k</th>
   <td>6919.15 KByte/s</td>
   <td>7439.19 KByte/s</td>
   <td>7834.33 KByte/s</td>
   <td>8996.88 KByte/s</td>
  </tr>
  <tr>
-  <td>Sending to client, packet size  1k</td>
+  <th>Sending to client, packet size  1k</th>
   <td>4100.83 KByte/s</td>
   <td>6174.82 KByte/s</td>
   <td>11.19 MByte/s</td>
   <td>11.20 MByte/s</td>
  </tr>
  <tr>
-  <td>Receiving from client, packet size 16k</td>
+  <th>Receiving from client, packet size 16k</th>
   <td>7644.62 KByte/s</td>
   <td>8564.73 KByte/s</td>
   <td>8770.21 KByte/s</td>
   <td>9020.33 KByte/s</td>
  </tr>
  <tr>
-  <td>Sending to client, packet size 16k</td>
+  <th>Sending to client, packet size 16k</th>
   <td>4455.27 KByte/s</td>
   <td>7974.70 KByte/s</td>
   <td>11.32 MByte/s</td>
   <td>11.42 MByte/s</td>
  </tr>
  <tr>
-  <td>Receiving from client, packet size 32k</td>
+  <th>Receiving from client, packet size 32k</th>
   <td>7878.99 KByte/s</td>
   <td>8494.75 KByte/s</td>
   <td>10.15 MByte/s</td>
   <td>10.94 MByte/s</td>
  </tr>
  <tr>
-  <td>Sending to client, packet size 32k</td>
+  <th>Sending to client, packet size 32k</th>
   <td>3990.65 KByte/s</td>
   <td>8145.11 KByte/s</td>
   <td>11.44 MByte/s</td>
