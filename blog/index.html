@@ -8,15 +8,28 @@ layout: main
     </div>
 </div>
 
-{% for post in site.categories.blog limit: 15 %}
-    {% assign content = post.content %}
-    <div class="row">
-        <div class="span12">
-            <h3><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h3>
-            <p>{{ post.description }}</p>
-        </div>
-    </div>        
-{% endfor %}
+<div class="row">
+    <div class="span4 pull-right">
+          <div class="well">
+            <h2>About</h2>
+              <h4>Blogroll:</h4>
+              <ul class="tag_box">
+                <li><a href="http://d3f.rout0r.org/">Der kleine d3f im großen Teich</a></li>
+                <li><a href="http://blog.l3r.de/">l3r - Technik, Linux, Android and other stuff</a></li>
+                <li><a href="http://www.revengeday.de/">Revengeday nerdness 2.1</a></li>
+                <li><a href="http://blog.malte-bublitz.de/">Maltes Blog</a></li>
+              </ul>
+          </div>
+    </div>
+
+    {% for post in site.categories.blog limit: 15 %}
+        {% assign content = post.content %}
+            <div class="span8 pull-left">
+                <h3><a href="{{ post.url }}" class="headerLink">{{ post.title }}</a></h3>
+                <p>{{ post.description }}</p>
+            </div>
+    {% endfor %}
+</div>
 
 <hr>
 <div class="row">
