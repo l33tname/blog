@@ -1,3 +1,11 @@
+---
+published: true
+description: Fancy File Upload Buttons
+categories: [blog]
+tags: [fileupload, fancy, html, css, js]
+layout: post
+---
+
 #Fancy File Upload Buttons 
 Everytime I build websites I need to use the pain of file uploads. Because of they look terribly and different in each browser I build a small example of a fancy upload button.
  
