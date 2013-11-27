@@ -22,7 +22,7 @@ $ cat update.php
 and the update script:
 <pre>
 cat update.sh 
-#!/bin/sh
+\#!/bin/sh
 cd /home/username/blog/ && git pull && jekyll build -d /var/www/virtual/username/html
 </pre>
  
