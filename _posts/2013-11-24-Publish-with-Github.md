@@ -12,15 +12,15 @@ If everything works as intended you can send push requests to our [github repo](
 Publishing from github is easy. You just need to set a small php page up which invokes a script to update the git repo and add the url of your php script in "web hooks" at github.
  
 The php file:
-```
-$ cat update.php
-<?php
-	shell_exec('./update.sh');
-?> 
-```
+<pre>
+$ cat update.php  
+<?php  
+	shell_exec('./update.sh');  
+?>   
+</pre>
  
 and the update script:
-```
+<pre>
 $ cat update.sh 
 #!/bin/sh
 #the logfile
@@ -40,6 +40,6 @@ git pull >> $LOGFILE
 #build page
 echo jekyll >> $LOGFILE
 jekyll build -d /var/www/virtual/username/html >> $LOGFILE
-```
+</pre>
  
 This replace the [post-receive git hook]({% post_url 2013-5-15-jekyll-1.0 %}). And will do the same work.
