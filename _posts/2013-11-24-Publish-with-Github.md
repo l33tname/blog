@@ -23,7 +23,7 @@ and the update script:
 <pre>
 cat update.sh 
 #!/bin/sh
-cd /home/username/blog/ && git pull
+cd /home/username/blog/ && git pull && jekyll build -d /var/www/virtual/username/html
 </pre>
  
-And with the [post-receive git hook]({% post_url 2013-5-15-jekyll-1.0 %}) in place the site will get rebuilt after a push. Since I use pull to update my repository, I need to rename it to post-merge.
+This replace the [post-receive git hook]({% post_url 2013-5-15-jekyll-1.0 %}). And will do the same work.
