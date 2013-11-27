@@ -14,8 +14,8 @@ Publishing from github is easy. You just need to set a small php page up which i
 The php file:
 <pre>
 $ cat update.php
-<?php 
-`./update.sh`
+<?php
+	shell_exec('./update.sh');
 ?> 
 </pre>
  
