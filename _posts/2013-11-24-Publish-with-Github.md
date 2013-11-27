@@ -23,7 +23,23 @@ and the update script:
 <pre>
 $ cat update.sh 
 \#!/bin/sh
-cd /home/username/blog/ && git pull && jekyll build -d /var/www/virtual/username/html
+\#the logfile
+datestr=$(date +%Y%m%d_%H%M%S)
+LOGFILE=/your/path/log_$datestr
+
+\#cd to your git repo
+cd /home/username/blog/
+
+\#update ALL TEH SOURCE
+echo git >> $LOGFILE
+git pull >> $LOGFILE
+
+\#Load bash_profile for jekyll
+. /home/username/.bash_profile
+
+\#build page
+echo jekyll >> $LOGFILE
+jekyll build -d /var/www/virtual/username/html >> $LOGFILE
 </pre>
  
 This replace the [post-receive git hook]({% post_url 2013-5-15-jekyll-1.0 %}). And will do the same work.
