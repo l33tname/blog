@@ -24,22 +24,22 @@ and the update script:
 
 ```bash
 $ cat update.sh 
-\#!/bin/sh
-\#the logfile
+#!/bin/sh
+#the logfile
 datestr=$(date +%Y%m%d_%H%M%S)
 LOGFILE=/your/path/log_$datestr
 
-\#cd to your git repo
+#cd to your git repo
 cd /home/username/blog/
 
-\#update ALL TEH SOURCE
+#update ALL TEH SOURCE
 echo git >> $LOGFILE
 git pull >> $LOGFILE
 
-\#Load bash_profile for jekyll
+#Load bash_profile for jekyll
 . /home/username/.bash_profile
 
-\#build page
+#build page
 echo jekyll >> $LOGFILE
 jekyll build -d /var/www/virtual/username/html >> $LOGFILE
 ```
