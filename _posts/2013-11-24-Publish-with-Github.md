@@ -12,14 +12,17 @@ If everything works as intended you can send push requests to our [github repo](
 Publishing from github is easy. You just need to set a small php page up which invokes a script to update the git repo and add the url of your php script in "web hooks" at github.
  
 The php file:
-```php
+
+```bash
 $ cat update.php  
 <?php  
 	shell_exec('./update.sh');  
 ?>   
 ```
+
 and the update script:
-```
+
+```bash
 $ cat update.sh 
 \#!/bin/sh
 \#the logfile
