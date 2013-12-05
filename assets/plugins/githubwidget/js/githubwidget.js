@@ -4,7 +4,7 @@
   {
 
     // Config
-    this.BASEPATH = '/plugins/githubwidget';   // {BASEPATH} is the folder where the folders css, font and js for the widget are
+    this.BASEPATH = '/assets/plugins/githubwidget';   // {BASEPATH} is the folder where the folders css, font and js for the widget are
 
     // Settings where were loaded from params
     this.settings = $.extend({

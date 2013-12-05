@@ -4,7 +4,7 @@ published: true
 categories: [projekte]
 tags: [github, project, javascript]
 layout: project
-images: ["img/project/githubwidget/githubwidget_1.png", "img/project/githubwidget/githubwidget_2.png"]
+images: ["githubwidget/githubwidget_1.png", "githubwidget/githubwidget_2.png"]
 gitrepositoryname: githubwidget
 gitusername: l33tsource
 ---
