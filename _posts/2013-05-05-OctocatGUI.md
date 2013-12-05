@@ -4,7 +4,7 @@ published: true
 categories: [projekte]
 tags: [github, octodex, wpf]
 layout: project
-images: ["img/project/octocatgui/octocat_1.png", "img/project/octocatgui/octocat_2.png", "img/project/octocatgui/octocat_3.png"]
+images: ["octocatgui/octocat_1.png", "octocatgui/octocat_2.png", "octocatgui/octocat_3.png"]
 gitrepositoryname: octodexGUI
 gitusername: fliiiix
 ---
