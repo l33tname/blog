@@ -20,7 +20,7 @@ So here is a small tutorial on how to add your windows installation to grub.
 
 Your first step is to find out the right UUID for the Windows partition. One way to do this is:
 
-> gdisk -l /dev/sda
+> sudo gdisk -l /dev/sda
 
 Then you should see something like this:
 
@@ -61,7 +61,7 @@ In my case the Windows EFI partition is the first one, but if you are not sure, 
 
 Now it's time to get the UUID of this partition. You can do this with:
 
->blkid /dev/sda2
+>sudo blkid /dev/sda2
 
 This gives you something like:
 > /dev/sda2: UUID="B8EA-3088" TYPE="vfat" PARTLABEL="EFI system partition" PARTUUID="9c0c3f2e-82a2-428d-9366-90f8c4580652"
