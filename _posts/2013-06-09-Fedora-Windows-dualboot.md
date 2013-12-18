@@ -72,12 +72,12 @@ You can now add your UUID to grub. Edit /etc/grub.d/40_custom and add the follow
 
 ```
 menuentry "Windows" {
-insmod part_gpt
-insmod fat
-insmod search_fs_uuid
-insmod chain
-search --fs-uuid --no-floppy --set=root your_UUID
-chainloader (${root})/efi/Microsoft/Boot/bootmgfw.efi
+  insmod part_gpt
+  insmod fat
+  insmod search_fs_uuid
+  insmod chain
+  search --fs-uuid --no-floppy --set=root your_UUID
+  chainloader (${root})/efi/Microsoft/Boot/bootmgfw.efi
 }
 ```
 
