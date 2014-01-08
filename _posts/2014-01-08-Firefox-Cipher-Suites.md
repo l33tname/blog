@@ -18,13 +18,14 @@ The nice thing about this is you can fix these really fast.
 2. set `security.tls.version.max` to 3
 3. search all `security.ssl3.` disable all exept these from the list below
 
-
->security.ssl3.rsa_des_ede3_sha
->security.ssl3.rsa_aes_256_sha
->security.ssl3.rsa_aes_128_sha
->security.ssl3.dhe_rsa_des_ede3_sha
->security.ssl3.dhe_rsa_aes_256_sha
->security.ssl3.dhe_rsa_aes_128_sha
+```
+security.ssl3.rsa_des_ede3_sha
+security.ssl3.rsa_aes_256_sha
+security.ssl3.rsa_aes_128_sha
+security.ssl3.dhe_rsa_des_ede3_sha
+security.ssl3.dhe_rsa_aes_256_sha
+security.ssl3.dhe_rsa_aes_128_sha
+```
 
 You can see on [https://www.howsmyssl.com](https://www.howsmyssl.com) if you got everything right. 
 
