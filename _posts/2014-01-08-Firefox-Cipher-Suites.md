@@ -25,6 +25,7 @@ security.ssl3.rsa_aes_128_sha
 security.ssl3.dhe_rsa_des_ede3_sha
 security.ssl3.dhe_rsa_aes_256_sha
 security.ssl3.dhe_rsa_aes_128_sha
+security.ssl3.ecdhe_rsa_aes_256_sha
 ```
 
 You can see on [https://www.howsmyssl.com](https://www.howsmyssl.com) if you got everything right. 
