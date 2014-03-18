@@ -6,7 +6,6 @@ tags: [Firefox, TLS/SSL, security]
 layout: post
 ---
 
-#Firefox and Cipher Suite
 What is a ciphre suite? This is a named combination of authentication, encryption, and message authentication code (MAC) algorithms 
 which is used for TLS and SSL. And many of these ciphre suite are by default in your Browser and known as insecure.
 

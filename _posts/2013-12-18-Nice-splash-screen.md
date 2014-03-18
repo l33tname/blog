@@ -5,7 +5,6 @@ categories: [blog]
 tags: [Fedora, splash screen]
 layout: post
 ---
-#Nice splash screen
 
 Just edit in `/etc/default/grub` the GRUB_CMDLINE_LINUX parameter and remove rhgb quiet.
 

@@ -6,9 +6,6 @@ tags: [Fedora, Windows, UEFI, grub2, dualboot]
 layout: post
 ---
 
-#Fedora and Windows dualboot with grub2 (UEFI)
-
-
 On my Lenovo IdeaPad Yoga I have a dualboot installation with Windows 8 and Fedora 18. My setup works fine with UEFI, however I'd prefer to boot Windows 8 out of grub.
 So here is a small tutorial on how to add your windows installation to grub.
 

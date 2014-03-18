@@ -6,8 +6,6 @@ tags: [SD card, Lenovo, drivers, Linux, Fedora]
 layout: post
 ---
 
-#Use SD card slot in your Yoga
-
 In the Lenovo Ideapad Yoga laptop is a SD card slot but there are not default driver for that.
 
 But you can simple install it with:

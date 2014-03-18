@@ -5,7 +5,6 @@ categories: [blog]
 tags: [automatic deployment, github, git, blog]
 layout: post
 ---
-#Deploy with Github
 
 If everything works as intended you can send push requests to our [github repo](https://github.com/l33tsource/blog) and it'll get automagic deployed if we merge it.
  

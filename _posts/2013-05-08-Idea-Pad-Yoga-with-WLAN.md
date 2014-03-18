@@ -5,7 +5,6 @@ categories: [blog]
 tags: [W-LAN, Lenovo, drivers, Linux, Fedora, git]
 layout: post
 ---
-#Lenovo Idea-Pad Yoga and W-LAN
 
 I bought a new Lenovo Ideapad Yoga laptop and the first thing I did was installing Fedora.
 Fedora works nice on it, touch screen works out of the box \o/, though the card reader doesn't work but I don't use it, so it's ok for me. But a big problem is that there is no RJ45 Ethernet plug, only W-LAN and this doesn't

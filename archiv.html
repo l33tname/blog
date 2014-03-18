@@ -1,0 +1,26 @@
+---
+layout: page
+title: Archiv
+---
+
+{% for post in site.categories.blog %}
+    {% if post.next %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+        {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+    {% endif %}
+	
+    {% if forloop.first %}
+        <h2>{{ post.date | date: '%Y' }}</h2>
+        <h3>{{ post.date | date: '%B' }}</h3>
+    {% else %}
+        {% if year != nyear %}
+            <h2>{{ post.date | date: '%Y' }}</h2>
+            <h3>{{ post.date | date: '%B' }}</h3>
+        {% elsif month != nmonth %}
+            <h3>{{ post.date | date: '%B' }}</h3>
+        {% endif %}
+    {% endif %}
+    <p><a href="{{ post.url }}" class="headerLink">{{ post.date | date: "%d.%m.%Y" }} {{ post.title }}</a></p>		
+{% endfor %}

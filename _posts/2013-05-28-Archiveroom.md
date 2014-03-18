@@ -5,7 +5,7 @@ categories: [blog]
 tags: [git, github, 3D]
 layout: post
 ---
-#Explore your GitHub archive data in 3D!
+###Explore your GitHub archive data in 3D!
 
 A short time ago I was made aware of a realy cool thing from a colleague. That was [http://archiveroom.net/](http://archiveroom.net/) the website. 
 There you can create a graphical version of your git repository with just a few clicks, if it is hosted on Github.

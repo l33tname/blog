@@ -5,7 +5,6 @@ categories: [blog]
 tags: [Mongo DB, Fedora, systemd, bug]
 layout: post
 ---
-#Install Mongo DB on Fedora
 
 If I just follow the official [instructions](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat-centos-or-fedora-linux/), 
 I get an error everytime:
