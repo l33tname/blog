@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 description: How to mount your nexus 5 smartphone on fedora
 categories: [blog]
 tags: [nexus 5, MTP, fedora, file transfer]
