@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 description: Build a rack from a ikea table
 categories: [blog]
 tags: [server, lack, rack, art, 19 inch]
