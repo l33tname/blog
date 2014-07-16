@@ -20,7 +20,7 @@ Bitte Microsoft fix das, oder macht irgendwo eine Option das man das ausblenden 
 Da es manchmal dazu tendiert Einstellungen zu ignorieren, kann man sich auch einfach ein Eintrag im web.config machen. 
 
 ```
- <appSettings>
+<appSettings>
     <add key="vs:EnableBrowserLink" value="false"/>
 </appSettings>
 ```
