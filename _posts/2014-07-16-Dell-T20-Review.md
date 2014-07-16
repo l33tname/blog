@@ -1,4 +1,4 @@
-Since I start using [plex](http://plex.tv) my HP ProLiant MicroServer was to slow to transcoding movies for [Chromecast](link to article about chromecast).
+Since I start using [plex](http://plex.tv) my HP ProLiant MicroServer was to slow to transcoding movies for [Chromecast](nope it's not finished jet).
 So I had primarily two options, first I transcoding them not on the fly and save them to my NAS or I buy a new NAS. Obviously I bought a new one.
 
 So I look around an found the Dell PowerEdge T20. The Key features for was the Intel Xeon processor which has enough power to transcoding movies. The possibility that 
@@ -7,11 +7,11 @@ for building stable and supported network controller.
 
 The downsides on my opinion are that only 4 hard drives fit in the case. And these hard drive cartridges don't look really rock-solid for me. 
 
-img
+![ssd image](/blog-bilder/2014-07-13-Dell-T20-RAM-Upgrade-img.jpg)
 
 ##Hardware
 
-I upgrade the my RAM to 20GB, for this you can checkout my other [blog post](link) about this. 
+I upgrade the my RAM to 20GB, for this you can checkout my other [blog post](http://l33tsource.com/blog/2014/07/13/Dell-T20-RAM-Upgrade/) about this. 
 For disks I use three WD Black with each 2TB space. And for my system drive I use one of my old SSD, just because I can.
 
 For the future I plan to upgrade it with a network controller to play with things like [LACP](http://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol).
