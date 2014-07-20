@@ -27,3 +27,6 @@ To fix this, just change the location in the config file '/etc/mongod.conf': `pi
 My first thought was to create the directory '/var/run/mongo' and change the owner and group to mongod (chown mongod:mongod).
 
 But on most modern systems /var/run is a tempfs file system so you need to create a config file in `/lib/tmpfiles.d` and add the config file `echo “d /var/run/mongo 0755 mongod mongod” > mongo.conf`.
+
+##UPDATE 
+It appears that the pid should be stored since Fedora 19 or 20 in /var/run/mongodb and not /var/run/mongo. 
