@@ -12,7 +12,7 @@ The setup is easy as expected, you just plug in your hdmi and connect it with po
 
 ##How it looks
 
-![Chromecast][/blog-bilder/2014-08-26-Chromecast-img.jpg]
+![Chromecast](/blog-bilder/2014-08-26-Chromecast-img.jpg)
 
 ##The down site
 
