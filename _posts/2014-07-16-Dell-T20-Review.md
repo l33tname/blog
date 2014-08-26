@@ -6,7 +6,7 @@ tags: [server, NAS, Dell T20, FreeBSD]
 layout: post
 ---
 
-Since I start using [plex](http://plex.tv) my HP ProLiant MicroServer was to slow to transcoding movies for [Chromecast](nope it's not finished jet).
+Since I start using [plex](http://plex.tv) my HP ProLiant MicroServer was to slow to transcoding movies for [Chromecast](http://l33tsource.com/blog/2014/08/26/Chromecast/).
 So I had primarily two options, first I transcoding them not on the fly and save them to my NAS or I buy a new NAS. Obviously I bought a new one.
 
 So I look around an found the Dell PowerEdge T20. The Key features for was the Intel Xeon processor which has enough power to transcoding movies. The possibility that 
