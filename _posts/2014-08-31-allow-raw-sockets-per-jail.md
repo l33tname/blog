@@ -11,7 +11,7 @@ But if you know how it's done, it's not really hard. At least not with ezjail wh
 Let's say you need raw sockets in a jail named 'examplejail' you just need to add:
 
 
-> export jail_examplejail_parameters="allow.raw_sockets=1"
+> export jail\_examplejail\_parameters="allow.raw\_sockets=1"
 
 
 to the config file which you find under `/usr/local/etc/ezjail/examplejail`.
