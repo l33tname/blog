@@ -2,7 +2,7 @@
 published: true
 description: Allow raw sockets on a per jail basis
 categories: [blog]
-tags: [nexus 5, MTP, fedora, file transfer]
+tags: [FreeBSD, ezjail, raw sockets]
 layout: post
 ---
 
