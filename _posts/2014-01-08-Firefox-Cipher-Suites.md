@@ -6,8 +6,8 @@ tags: [Firefox, TLS/SSL, security]
 layout: post
 ---
 
-What is a ciphre suite? This is a named combination of authentication, encryption, and message authentication code (MAC) algorithms 
-which is used for TLS and SSL. And many of these ciphre suite are by default in your Browser and known as insecure.
+What is a cipher suite? This is a named combination of authentication, encryption, and message authentication code (MAC) algorithms 
+which is used for TLS and SSL. And many of these cipher suite are by default in your Browser and known as insecure.
 
 
 The nice thing about this is you can fix these really fast.
@@ -30,4 +30,4 @@ security.ssl3.ecdhe_rsa_aes_256_sha
 You can see on [https://www.howsmyssl.com](https://www.howsmyssl.com) if you got everything right. 
 
 
-Check these in all browser and help friends and familey with this!
+Check these in all browser and help friends and family with this!
