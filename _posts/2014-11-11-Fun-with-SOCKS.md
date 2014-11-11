@@ -72,13 +72,13 @@ $ cat setup.pac
 //alerts are in ctrl + shift + j
 function FindProxyForURL(url, host)
 {
-    if(shExpMatch(host, "*.l33t.lan*") || shExpMatch(host, "192.168.1.*"))
-    {
-      return "SOCKS 127.0.0.1:1080";
-    }
+  if(shExpMatch(host, "*.l33t.lan*") || shExpMatch(host, "192.168.1.*"))
+  {
+    return "SOCKS 127.0.0.1:1080";
+  }
 
-    // The default case
-    return "DIRECT";
+  // The default case
+  return "DIRECT";
 }
 ``` 
 
