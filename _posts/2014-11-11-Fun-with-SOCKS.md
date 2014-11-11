@@ -82,7 +82,7 @@ function FindProxyForURL(url, host)
 }
 ``` 
 
-Just configure your Firefox to use it. You just use the file path:
+Just configure your Firefox to use it (don't forget to restart your browser). You just use the file path:
 
 ![Set a PAC file](/blog-bilder/2014-11-11-fun-with-socks-pac.png)
 
