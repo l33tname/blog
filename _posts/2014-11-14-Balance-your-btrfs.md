@@ -1,5 +1,10 @@
-Balance your btrfs
-
+---
+published: true
+description: Your disk if full but it's not
+categories: [blog]
+tags: [btrfs, balance, Linux, Fedora]
+layout: post
+---
 When your ` btrfs fi df` show much unused space, but your programms crash because they can't write.
 It's probably that your drive is full anyway. 
 
@@ -42,4 +47,4 @@ Label: 'fedora_hyperion'  uuid: ff4be388-XXXX-XXXX-XXXX-e5b02d8ac312
 	devid    1 size 103.40GiB used 65.03GiB path /dev/mapper/luks-bf4bdc39-XXXX-XXXX-XXX-4fb5e13c5056
 ```
 
-Source and detailed informations: 
+Source and detailed informations: http://marc.merlins.org/perso/btrfs/post_2014-05-04_Fixing-Btrfs-Filesystem-Full-Problems.html
