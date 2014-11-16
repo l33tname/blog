@@ -27,6 +27,7 @@ btrfs device add -f /dev/sdc /
 A 1 GB usb stick should be enough, but make sure there are no data on it. 
 
 Now you can balance it with:
+
 ```
 btrfs balance start -dusage=80 /
 ```
@@ -35,11 +36,13 @@ Right, there is no space between -d and usage. You can change the usage paramete
 more in this case means it use more time but free more space. 
 
 After that is done you can remove your usb stick:
+
 ```
 btrfs device delete /dev/sdc /
 ```
 
 And if you now check
+
 ```
 # btrfs fi show /
 Label: 'fedora_XXXXX'  uuid: ff4be388-XXXX-XXXX-XXXX-e5b02d8ac312
@@ -47,4 +50,4 @@ Label: 'fedora_XXXXX'  uuid: ff4be388-XXXX-XXXX-XXXX-e5b02d8ac312
 	devid    1 size 103.40GiB used 65.03GiB path /dev/mapper/luks-bf4bdc39-XXXX-XXXX-XXX-4fb5e13c5056
 ```
 
-Source and detailed informations: http://marc.merlins.org/perso/btrfs/post_2014-05-04_Fixing-Btrfs-Filesystem-Full-Problems.html
+Source and detailed informations: [Fixing Btrfs Filesystem Full Problems]( http://marc.merlins.org/perso/btrfs/post_2014-05-04_Fixing-Btrfs-Filesystem-Full-Problems.html )
