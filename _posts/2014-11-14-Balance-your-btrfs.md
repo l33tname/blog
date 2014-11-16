@@ -42,7 +42,7 @@ btrfs device delete /dev/sdc /
 And if you now check
 ```
 # btrfs fi show /
-Label: 'fedora_hyperion'  uuid: ff4be388-XXXX-XXXX-XXXX-e5b02d8ac312
+Label: 'fedora_XXXXX'  uuid: ff4be388-XXXX-XXXX-XXXX-e5b02d8ac312
 	Total devices 1 FS bytes used 61.55GiB
 	devid    1 size 103.40GiB used 65.03GiB path /dev/mapper/luks-bf4bdc39-XXXX-XXXX-XXX-4fb5e13c5056
 ```
