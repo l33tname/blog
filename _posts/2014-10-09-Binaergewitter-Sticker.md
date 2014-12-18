@@ -20,3 +20,7 @@ So würden die Sticker aussehen und vermutlich 2x6 zoll gross sein. (falls sich 
 Wer jetzt auch so Sticker möchte, schreibt mir doch kurz eine Mail ([sticker@l33t.name](mailto:sticker@l33t.name)) wie viele und wie viel Geld ihr dafür ausgeben würdet.
 
 Wenn etwas daraus wird werde ich sie sicher an den 31c3 mitbringen oder gegen den Aufpreis von ~5 euro in ein Couvert stecken und an euch senden. 
+
+##Update
+
+Ich hab dann einfach mal Sticker bestellt. Gibt ~100 stück am \#31c3. Vielleicht gibt es sogar ein Hörertreffen.  
