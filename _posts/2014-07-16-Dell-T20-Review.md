@@ -26,7 +26,7 @@ For the future I plan to upgrade it with a network controller to play with thing
 
 ##Noise
 
-What should I say, in a normal office environment you can't hear it. But it has two fans so you can hear it if it's realy quiet, but for the most environments this shouldn't be that
+What should I say, in a normal office environment you can't hear it. But it has two fans so you can hear it if it's really quiet, but for the most environments this shouldn't be that
 big deal. So if you searching for something quiet and powerful I can really recommend the Dell T20.
 
 ##BIOS update
@@ -36,4 +36,4 @@ For some reason I must unplug it to restart.
 
 ##Software
 
-I run a FreeBSD 10 on it. Maybe I extend on this a bit what software I use. But for now, I look for me that every part of the hardware supportet by FreeBSD by default. (I like that)
+I run a FreeBSD 10 on it. Maybe I extend on this a bit what software I use. But for now, It looks to me as if every part of the hardware is supported on FreeBSD by default. (I like that)
