@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -10,9 +10,5 @@ title:            l33tsource
 tagline:          '$dinge'
 description:      'Sometimes random blog posts appear.'
 url:              http://l33tsource.com
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
 
 paginate:         5
