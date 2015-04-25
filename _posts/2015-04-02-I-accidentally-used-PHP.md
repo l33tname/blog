@@ -20,12 +20,12 @@ After poking a while in the source code I found this:
 dns_get_record($host, DNS_A + DNS_AAAA)
 ```
 
-This was my first WTF moment I mean seriously DNS_A + DNS_AAAA what should that do. A grep later with no result, it was clear that 
+This was my first WTF moment I mean seriously DNS\_A + DNS\_AAAA what should that do. A grep later with no result, it was clear that 
 it must be a function of PHP. And look it's in the [manual]( http://php.net/manual/en/function.dns-get-record.php ). Turns out the 
 way they implement it, allow to do addition and subtraction with this constants since there are internally bit masks or something. 
 Which is a smart idea but of course you find this is not in the manual, it's only in a comment below.
 
-Anyway if you now read in the manual what dns_get_record should return:
+Anyway if you now read in the manual what dns\_get\_record should return:
 
 > This function returns an array of associative arrays, or FALSE on failure.
 
