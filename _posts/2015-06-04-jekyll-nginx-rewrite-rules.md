@@ -12,8 +12,8 @@ error logs I saw a few peoples who tried urls like this: /2015/04/22/htaccess-pr
 So I thought why not redirect this urls. Of course I'm not the first person with this problem, 
 I found two blog post on which I based my solution. 
 
-- https://vec.io/posts/jekyll-clean-urls-with-nginx 
-- http://rickharrison.me/how-to-remove-trailing-slashes-from-jekyll-urls-using-nginx
+- [vec.io/posts/jekyll-clean-urls-with-nginx][1]
+- [rickharrison.me/how-to-remove-trailing-slashes-from-jekyll-urls-using-nginx][2]
 
 My solution:
 
@@ -37,3 +37,6 @@ server {
 ```
 
 If you have any problems or find broken urls, just write me. 
+
+  [1]: https://vec.io/posts/jekyll-clean-urls-with-nginx
+  [2]: http://rickharrison.me/how-to-remove-trailing-slashes-from-jekyll-urls-using-nginx
