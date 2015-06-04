@@ -1,0 +1,39 @@
+---
+published: true
+description: Clean URLs with nginx and jekyll
+categories: [blog]
+tags: [jekyll, proxy, nginx, web, redirect]
+layout: post
+---
+
+I use `permalink: pretty` which create for each post a folder with a index.html. 
+This creates nice urls like this /2015/04/22/htaccess-proxy. But last time I cheked my
+error logs I saw a few peoples who tried urls like this: /2015/04/22/htaccess-proxy.html.
+So I thought why not redirect this urls. Of course I'm not the first person with this problem, 
+I found two blog post on which I based my solution. 
+
+- https://vec.io/posts/jekyll-clean-urls-with-nginx 
+- http://rickharrison.me/how-to-remove-trailing-slashes-from-jekyll-urls-using-nginx
+
+My solution:
+
+```
+server {
+        listen       80;
+        server_name  l33tsource.com www.l33tsource.com;
+
+        rewrite ^/index.html$ / redirect;
+        rewrite ^(/.+)/$ $1 redirect;
+        rewrite ^(/.+)/index.html$ $1 redirect;
+    
+        if ($request_uri ~* ".html") {
+            rewrite (?i)^(.*)/(.*)\.html $1/$2 redirect;
+        }
+
+        location / {
+            proxy_pass http://blog;
+        }
+}
+```
+
+If you have any problems or find broken urls, just write me. 
