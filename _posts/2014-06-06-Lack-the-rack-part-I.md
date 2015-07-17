@@ -8,9 +8,9 @@ layout: post
 
 I got some 19 inch server. The problem I don't have a rack for it. So there are two options buy for a truck load of money a rack or build one on my own. So just buying a rack sounds boring, and I don't have a truck load of money. 
 
-##First stepp
+##First step
 
-To build your own rack you need a table from ikea called lack. They are available in different colours and cost around 5$ -15$.
+To build your own rack you need a table from [Ikea](http://www.ikea.com) called lack. They are available in different colours and cost around 5$ -15$.
 They are exactly 19" and you can stack multiple of them to a large rack.
 
 ##Decoration

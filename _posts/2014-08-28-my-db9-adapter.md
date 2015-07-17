@@ -10,4 +10,4 @@ I just want to share with you my awesome setup to connect with BD-9.
 
 ![old laptop](/blog-bilder/2014-08-28-my-db9-adapter.jpg)
 
-The laptop run still Debian 6 and everything work as expectet. O.O
+The laptop run still Debian 6 and everything work as expected. O.O

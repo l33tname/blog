@@ -8,7 +8,7 @@ layout: post
 
 Lets say you have a web application bound to localhost. 
 For example your ruby or python web project. The next logic step is to install 
-nginx and setup a reverse proxy. If thats not an option and you need to use Apache 
+nginx and setup a reverse proxy. If that's not an option and you need to use Apache 
 and can not edit the Apache settings. There is a solution which I used for some time:
 
 

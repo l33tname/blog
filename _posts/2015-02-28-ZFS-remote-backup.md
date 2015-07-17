@@ -23,7 +23,7 @@ But lets talk about the setup. The N54L is loaded with 3 x 2TB drives and 1 TB f
 This is basically the same setup like my [Dell T20][3]. And a very usefull hint for me was the sysctl for [geom debugflags][4], becaue I used disks with old partition tables on it and I got allways a error like "Device Busy" so you can force to create a
 zfs volume anyway with `sysctl kern.geom.debugflags=16`.
 
-With the pool in place, I enable ssh on my NAS with passwordless key login.
+With the pool in place, I enable ssh on my NAS with a password less key login.
 Maybe I write a blog post about that to. (Probably not but you can find how that is done on teh interwebz)
 
 ![remote server][5]
@@ -36,8 +36,8 @@ This allow everything which is necessary to receive snapshots on tank. You can c
 
 {% gist fliiiix/71f3a754a01b558a7cd0 %}
 
-Since you probably won't send everytime everything you can use the incremental script. Thats what I do.
-Everynight with cron.
+Since you probably won't send every time everything you can use the incremental script. That's what I do.
+Every night with cron.
 
 > 30 2 * * * /root/backup/backup_incremental >> /root/backup/backup.log
 
@@ -47,7 +47,7 @@ Everynight with cron.
 I will probably fix this for the future version.</s>
 
 
-Actually I did this befor I blog about it.
+Actually I did this before I blog about it.
 
 
   [1]: https://twitter.com/ronyspitzer
