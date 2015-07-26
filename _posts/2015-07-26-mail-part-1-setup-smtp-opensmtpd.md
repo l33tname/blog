@@ -2,25 +2,28 @@
 description: OpenSMTPD - Mail servers are not fun I
 published: true
 categories: [blog]
-tags: [FreeBSD, Mail, DNS, smtp, OpenSMTPD ]
+tags: [FreeBSD, Mail, DNS, smtp, OpenSMTPD]
 layout: post
 ---
 
+This is mostly my personal mail server documentation a bit polished in three blog posts.
 
 # DNS setup
 
-set a MX record to a subdomain like mail.domain.tdl and then the 
+Set a MX record to a subdomain like mail.domain.tdl and then the 
 mail.domain.tdl points to your IP. Don't forget to increase the TTL of this records if 
-everything works. (https://medium.com/@N/how-i-lost-my-50-000-twitter-username-24eb09e026dd)
+everything works. [Why?](https://medium.com/@N/how-i-lost-my-50-000-twitter-username-24eb09e026dd)
+I set my TTL to 259200 sec, which are 3 days  
 
-Make sure your reverse dns match the hostname of your mail server!
+Make sure your [reverse DNS](https://en.wikipedia.org/wiki/Reverse_DNS_lookup) match the hostname of your mail server!
 
-I set my ttl to 259200sec which are 3 days  
+And you should probably set the [Sender Policy Framework](https://en.wikipedia.org/wiki/Sender_Policy_Framework)
 
-And you should probably set the Sender Policy Framework
+```
 doamin.tdl.                 IN   TXT    "v=spf1 mx mx:domain.tdl -all"
+```
 
-# Create user
+# Create users
 
 Now we need a user, replace `$USERNAME` with the account name. If your email address should be 
 hi@domain.tdl your account name is hi.
