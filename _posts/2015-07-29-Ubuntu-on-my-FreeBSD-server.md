@@ -23,6 +23,6 @@ Works also on Apple hardware
 ![ubuntu on mac][3]
 
 
-  [1]: /blog-bilder/2015-02-29-take-ubuntu.jpg
+  [1]: /blog-bilder/2015-07-29-take-ubuntu.jpg
   [2]: /blog-bilder/2015-07-29-ubuntu-on-FreeBSD-server.jpg
   [3]: /blog-bilder/2015-07-29-ubuntu-on-mac.jpg
