@@ -11,4 +11,8 @@ tagline:          '$dinge'
 description:      'Sometimes random blog posts appear.'
 url:              http://l33tsource.com
 
+author:
+  name: Sir l33tname
+  email: rss@l33t.name
+
 paginate:         5
