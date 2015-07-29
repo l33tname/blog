@@ -17,7 +17,6 @@ mail log which you find there -> `/var/log/mail`.
 I used also [http://mxtoolbox.com/](http://mxtoolbox.com/) which has a few nice 
 tools to check your DNS setup and SMTP.
 
-
 Many useful things are stolen and copied from these articles:
 
 * [OpenBSD Mail Server](http://technoquarter.blogspot.ch/p/series.html)
@@ -27,6 +26,10 @@ Many useful things are stolen and copied from these articles:
 * [BernardSpil/OpenSMTPd](https://wiki.freebsd.org/BernardSpil/OpenSMTPd)
 * [Running OpenSMTPd inside a FreeBSD Jail](https://github.com/OpenSMTPD/OpenSMTPD/wiki/Running-OpenSMTPd-inside-a-FreeBSD-Jail)
 
+
+**Special Thanks to**
+
+* Bernard Spil [@Sp1l]( https://twitter.com/Sp1l ): for the hint that [sendmail_enable="NONE"]( https://twitter.com/Sp1l/status/626329431599136768 ) is enough 
 
 This is not a part of the three part series:
 
