@@ -52,9 +52,6 @@ Then we can edit `/etc/rc.conf` and add these lines, to make sure sendmail is no
 
 ```
 sendmail_enable="NONE"
-sendmail_msp_queue_enable="NO"
-sendmail_outbound_enable="NO"
-sendmail_submit_enable="NO"
 ```
 
 Now we can install OpenSMTPD which is really really easy, it's just:
