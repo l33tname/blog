@@ -10,7 +10,7 @@ If you feel the need to put ubuntu on your FreeBSD server,
 here is a guide. 
 
 
-It's really simple the first step is to take ubuntu
+It's really simple, the first step is to take ubuntu
 
 ![take ubuntu][1]
 
