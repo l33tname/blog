@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 description: Setup Elixir and Phoneix on Fedora
 categories: [blog]
 tags: [Fedora, Fedora 22, Elixir, Phoneix, psql, postgres, erlang]
