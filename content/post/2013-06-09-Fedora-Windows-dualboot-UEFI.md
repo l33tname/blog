@@ -10,11 +10,11 @@ url = "/2013/06/09/fedora-windows-dualboot-uefi/"
 On my Lenovo IdeaPad Yoga I have a dualboot installation with Windows 8 and Fedora 18. My setup works fine with UEFI, however I'd prefer to boot Windows 8 out of grub.
 So here is a small tutorial on how to add your windows installation to grub.
 
-1. Install the following packages:
+Install the following packages:
 
 > sudo yum install grub2-efi os-prober shim
 
-##Your UUID
+## Your UUID
 
 Your first step is to find out the right UUID for the Windows partition. One way to do this is:
 
@@ -59,12 +59,12 @@ In my case the Windows EFI partition is the first one, but if you are not sure, 
 
 Now it's time to get the UUID of this partition. You can do this with:
 
->sudo blkid /dev/sda2
+> sudo blkid /dev/sda2
 
 This gives you something like:
 > /dev/sda2: UUID="B8EA-3088" TYPE="vfat" PARTLABEL="EFI system partition" PARTUUID="9c0c3f2e-82a2-428d-9366-90f8c4580652"
 
-##Update your grub config
+## Update your grub config
 
 You can now add your UUID to grub. Edit /etc/grub.d/40_custom and add the following lines. Replace "your_UUID" with the UUID from the previous step.
 
@@ -79,7 +79,7 @@ menuentry "Windows" {
 }
 ```
 
-##The Rebuild
+## The Rebuild
 
 And finally you can rebuild the config with:
 

@@ -7,20 +7,6 @@ url = "/2014/08/28/my-db9-adapter/"
 
 +++
 
----
-categories:
-- blog
-date: 
-description: 
-published: true
-tags:
-- 
-- 
-- 
-- 
-url: 
----
-
 I just want to share with you my awesome setup to connect with BD-9.
 
 ![old laptop](/blog-bilder/2014-08-28-my-db9-adapter.jpg)

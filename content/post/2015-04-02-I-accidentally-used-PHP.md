@@ -77,7 +77,7 @@ bool(false)
 Right it returns only FALSE in this case, even if there is a A record for this domain. 
 
 
-##And the moral of this story
+## And the moral of this story
 
 Deploy IPv6 everywhere to prevent such things. Or maybe don't build software based on PHP. 
 I personally recommend both things. 

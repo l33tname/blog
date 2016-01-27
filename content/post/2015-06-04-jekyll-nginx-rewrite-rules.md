@@ -39,7 +39,7 @@ server {
 
 If you have any problems or find broken urls, just write me. 
 
-###Update
+### Update
 
 For some weird reason all these redirection foo doesn't work when the blog upstream not on port 80 is. 
 

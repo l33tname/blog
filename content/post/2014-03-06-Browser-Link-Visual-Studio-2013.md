@@ -16,7 +16,7 @@ Ich find es aber scheisse sollange es mein Solution Explorer mit `poll?transport
 
 Bitte Microsoft fix das, oder macht irgendwo eine Option das man das ausblenden kann. Solange kann man es aber auch bequem austellen, und zwar hier: ![fix](/blog-bilder/2014-03-06-Browser-Link-Visual-Studio-2013_img2.PNG)
 
-##Update
+## Update
 
 Da es manchmal dazu tendiert Einstellungen zu ignorieren, kann man sich auch einfach ein Eintrag im web.config machen. 
 

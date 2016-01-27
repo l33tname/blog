@@ -62,7 +62,7 @@ And this public key we can now put in our DNS, this should look something like t
 dkimselector._domainkey IN TXT "k=rsa; t=s; p=MIGfMA0GCSqGS...CMaVI02QIDAQAB"
 ```
 
-![dns settings for DKIM](insert image here)
+![dns settings for DKIM](/blog-bilder/2015-07-26-dns-dekim-settings.png)
 
 
 Here is `MIGfMA0GCSqGS...CMaVI02QIDAQAB` your public key with out the -----BEGIN PUBLIC KEY-----

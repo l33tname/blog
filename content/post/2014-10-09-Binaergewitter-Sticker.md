@@ -22,7 +22,7 @@ Wer jetzt auch so Sticker möchte, schreibt mir doch kurz eine Mail ([sticker@l3
 
 Wenn etwas daraus wird werde ich sie sicher an den 31c3 mitbringen oder gegen den Aufpreis von ~5 euro in ein Couvert stecken und an euch senden.
 
-##Update
+## Update
 
 Ich hab dann einfach mal Sticker bestellt. Gibt ~100 stück am \#31c3. Vielleicht gibt es sogar ein Hörertreffen.
 ![sticker II]( /blog-bilder/2014-10-09-Binaergewitter-Sticker-I.jpg )
