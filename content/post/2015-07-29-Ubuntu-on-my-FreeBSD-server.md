@@ -1,18 +1,13 @@
----
-categories:
-- blog
-date: 2015-07-29T00:00:00Z
-description: How I put ubuntu on things
-published: true
-tags:
-- Ubuntu
-- FreeBSD
-- N54L
-url: /2015/07/29/Ubuntu-on-my-FreeBSD-server/
----
++++
+date = "2015-07-29T00:00:00Z"
+title = "Ubuntu on FreeBSD server"
+description = "How I put ubuntu on things"
+tags = ["Ubuntu", "FreeBSD", "N54L"]
+url = "/2015/07/29/ubuntu-on-my-freebsd-server/"
 
-If you feel the need to put ubuntu on your FreeBSD server, 
-here is a guide. 
++++
+
+If you feel the need to put ubuntu on your FreeBSD server, here is a guide. 
 
 
 It's really simple, the first step is to take ubuntu

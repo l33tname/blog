@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2014-07-16T00:00:00Z
-description: Dell T20 Review
-published: true
-tags:
-- server
-- NAS
-- Dell T20
-- FreeBSD
-url: /2014/07/16/Dell-T20-Review/
----
++++
+date = "2014-07-16T00:00:00Z"
+title = "Dell T20 Review"
+description = "Dell T20 Review"
+tags = ["server", "NAS", "Dell T20", "FreeBSD"]
+url = "/2014/07/16/dell-t20-review/"
+
++++
 
 Since I start using [plex](http://plex.tv) my HP ProLiant MicroServer was to slow to transcoding movies for [Chromecast](http://l33tsource.com/blog/2014/08/26/Chromecast/).
 So I had primarily two options, first I transcoding them not on the fly and save them to my NAS or I buy a new NAS. Obviously I bought a new one.

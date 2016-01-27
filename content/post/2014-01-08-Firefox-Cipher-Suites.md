@@ -1,15 +1,11 @@
----
-categories:
-- blog
-date: 2014-01-08T00:00:00Z
-description: Enable more security in your browser.
-published: true
-tags:
-- Firefox
-- TLS/SSL
-- security
-url: /2014/01/08/Firefox-Cipher-Suites/
----
++++
+date = "2014-01-08T00:00:00Z"
+title = "Firefox Cipher Suites"
+description = "Enable more security in your browser."
+tags = ["Firefox", "TLS/SSL", "security"]
+url = "/2014/01/08/firefox-cipher-suites/"
+
++++
 
 What is a cipher suite? This is a named combination of authentication, encryption, and message authentication code (MAC) algorithms 
 which is used for TLS and SSL. And many of these cipher suite are by default in your Browser and known as insecure.

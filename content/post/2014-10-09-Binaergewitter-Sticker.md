@@ -1,15 +1,11 @@
----
-categories:
-- blog
-date: 2014-10-09T00:00:00Z
-description: Sticker für Binaergewitter
-published: true
-tags:
-- Podcast
-- Sticker
-- Binaergewitter
-url: /2014/10/09/Binaergewitter-Sticker/
----
++++
+date = "2014-10-09T00:00:00Z"
+title = "Sticker"
+description = "Sticker für Binaergewitter"
+tags = ["Podcast", "Sticker", "Binaergewitter"]
+url = "/2014/10/09/binaergewitter-sticker/"
+
++++
 
 Wie vermutlich die meisten von euch wissen, bin ich "Profi Podcast Hörer". Und so als Profi möchte
 man sich auch mal ein Sticker seines Lieblings Podcast auf den Laptop kleben.

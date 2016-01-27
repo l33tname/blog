@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2013-12-29T00:00:00Z
-description: How to install SD card drivers for Lenovo Idea-Pad Yoga
-published: true
-tags:
-- SD card
-- Lenovo
-- drivers
-- Linux
-- Fedora
-url: /2013/12/29/Yoga-and-SD-Card/
----
++++
+date = "2013-12-29T00:00:00Z"
+title = "Yoga and SD Card"
+description = "How to install SD card drivers for Lenovo Idea-Pad Yoga"
+tags = ["SD card", "Lenovo", "drivers", "Linux", "Fedora"]
+url = "/2013/12/29/yoga-and-sd-card/"
+
++++
 
 In the Lenovo Ideapad Yoga laptop is a SD card slot but there are not default driver for that.
 

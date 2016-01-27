@@ -1,14 +1,11 @@
----
-categories:
-- blog
-date: 2013-12-18T00:00:00Z
-description: Enable nice splash screen
-published: true
-tags:
-- Fedora
-- splash screen
-url: /2013/12/18/Nice-splash-screen/
----
++++
+date = "2013-12-18T00:00:00Z"
+title = "Nice splash screen"
+description = "Enable nice splash screen"
+tags = ["Fedora", "splash screen"]
+url = "/2013/12/18/nice-splash-screen/"
+
++++
 
 Just edit in `/etc/default/grub` the GRUB_CMDLINE_LINUX parameter and remove rhgb quiet.
 

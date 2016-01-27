@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2015-04-02T00:00:00Z
-description: Why I spend my nights debugging PHP
-published: true
-tags:
-- PHP
-- debugging
-- Observium
-- DNS
-url: /2015/04/02/I-accidentally-used-PHP/
----
++++
+date = "2015-04-02T00:00:00Z"
+title = "I accidentally used PHP"
+description = "Why I spend my nights debugging PHP"
+tags = ["PHP", "debugging", "Observium", "DNS"]
+url = "/2015/04/02/i-accidentally-used-php/"
+
++++
 
 I try to avoid PHP software when ever possible. But sometimes the best tool for the job is written in PHP. 
 One of this tools is [observium]( http://www.observium.org/ ) which is a network monitoring platform. And I can 

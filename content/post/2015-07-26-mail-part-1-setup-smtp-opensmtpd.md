@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2015-07-26T00:00:00Z
-description: OpenSMTPD - Mail servers are not fun I
-published: true
-tags:
-- FreeBSD
-- Mail
-- DNS
-- smtp
-- OpenSMTPD
-url: /2015/07/26/mail-part-1-setup-smtp-opensmtpd/
----
++++
+date = "2015-07-26T00:00:00Z"
+title = "Setup smtp"
+description = "OpenSMTPD - Mail servers are not fun I"
+tags = ["FreeBSD", "Mail", "DNS", "smtp", "OpenSMTPD"]
+url = "/2015/07/26/mail-part-1-setup-smtp-opensmtpd/"
+
++++
 
 This is mostly my personal mail server documentation a bit polished in three blog posts.
 

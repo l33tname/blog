@@ -1,15 +1,11 @@
----
-categories:
-- blog
-date: 2015-09-17T00:00:00Z
-description: My BalCCon2k15 trip report
-published: true
-tags:
-- BalCCon2k15
-- serbia
-- conference
-url: /2015/09/17/BalCCon2k15-trip-report/
----
++++
+date = "2015-09-17T00:00:00Z"
+title = "BalCCon2k15 trip report"
+description = "My BalCCon2k15 trip report"
+tags = ["BalCCon2k15", "serbia", "conference"]
+url = "/2015/09/17/balccon2k15-trip-report/"
+
++++
 
 If you follow me on twitter you probably saw that I was at [BalCCon2k15]( https://2k15.balccon.org/index.php?title=Main_Page ).
 It was fun. I really enjoy this smaller events, the larger events like the CCCongress are very cool, but sometimes just 

@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2014-07-13T00:00:00Z
-description: Running Crucial Ballistix Sport in a Dell T20
-published: true
-tags:
-- server
-- NAS
-- Dell T20
-- RAM
-- Upgrade
-url: /2014/07/13/Dell-T20-RAM-Upgrade/
----
++++
+date = "2014-07-13T00:00:00Z"
+title = "Dell T20 RAM Upgrade"
+description = "Running Crucial Ballistix Sport in a Dell T20"
+tags = ["server", "NAS", "Dell T20", "RAM", "Upgrade"]
+url = "/2014/07/13/dell-t20-ram-upgrade/"
+
++++
 
 I can confirm that [Crucial Ballistix Sport](http://uk.crucial.com/gbr/en/BLS2CP8G3D1609DS1S00CEU?IMODULE=BLS2CP8G3D1609DS1S00CEU) (part number: BLS2CP8G3D1609DS1S00CEU) 
 running fine in the Dell T20. This mean I have now 20GB RAM \o/. Yeah you can mix ECC RAM with RAM that doesn't support ECC.

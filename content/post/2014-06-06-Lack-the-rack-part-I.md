@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2014-06-06T00:00:00Z
-description: Build a rack from a ikea table
-published: true
-tags:
-- server
-- lack
-- rack
-- art
-- 19 inch
-url: /2014/06/06/Lack-the-rack-part-I/
----
++++
+date = "2014-06-06T00:00:00Z"
+title = "Lack the rack"
+description = "Build a rack from a ikea table"
+tags = ["server", "lack", "rack", "19 inch"]
+url = "/2014/06/06/lack-the-rack-part-I/"
+
++++
 
 I got some 19 inch server. The problem I don't have a rack for it. So there are two options buy for a truck load of money a rack or build one on my own. So just buying a rack sounds boring, and I don't have a truck load of money. 
 

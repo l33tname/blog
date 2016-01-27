@@ -1,15 +1,11 @@
----
-categories:
-- blog
-date: 2013-05-28T00:00:00Z
-description: Explore your GitHub archive data in 3D!
-published: true
-tags:
-- git
-- github
-- 3D
-url: /2013/05/28/Archiveroom/
----
++++
+date = "2013-05-28T00:00:00Z"
+title = "Archiveroom"
+description = "Explore your GitHub archive data in 3D!"
+tags = ["git", "github", "3D"]
+url = "/2013/05/28/archiveroom/"
+
++++
 
 ###Explore your GitHub archive data in 3D!
 
@@ -20,5 +16,5 @@ TThese blocks are stacked one above the other and next to each other. There is a
 
 <iframe width="620" height="335" src="http://www.youtube.com/embed/G6CzzCu6wXs?&amp;output=embed&amp;rel=0&amp;theme=light&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
 
-This is a really cool thing and you can set up it with just a few clicks. If you want to try it, i can olny recommend it. 
+This is a really cool thing and you can set up it with just a few clicks. If you want to try it, i can only recommend it. 
 A guide with all necessairy steps can be find at the bottom of the [homepage](http://archiveroom.net/).

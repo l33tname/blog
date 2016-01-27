@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2013-11-24T00:00:00Z
-description: This blog get published by github
-published: true
-tags:
-- automatic deployment
-- github
-- git
-- blog
-url: /2013/11/24/Publish-with-Github/
----
++++
+date = "2013-11-24T00:00:00Z"
+title = "Publish with Github"
+description = "This blog get published by github"
+tags = ["automatic deployment", "github", "git", "blog"]
+url = "/2013/11/24/publish-with-github/"
+
++++
 
 If everything works as intended you can send push requests to our [github repo](https://github.com/l33tsource/blog) and it'll get automagic deployed if we merge it.
 

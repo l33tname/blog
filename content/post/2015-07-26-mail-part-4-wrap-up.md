@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2015-07-26T00:00:00Z
-description: Mail server wrap-up and debugging
-published: true
-tags:
-- FreeBSD
-- Mail
-- DNS
-- wrap-up
-- debugging
-url: /2015/07/26/mail-part-4-wrap-up/
----
++++
+date = "2015-07-26T00:00:00Z"
+title = "Mail server wrap-up"
+description = "Mail server wrap-up and debugging"
+tags = ["FreeBSD", "Mail", "DNS", "wrap-up", "debugging"]
+url = "/2015/07/26/mail-part-4-wrap-up/"
+
++++
 
 The simplest way to check if everything work as expected, is to configure 
 one of your new mail accounts in your mail client and send a mail to the 

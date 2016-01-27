@@ -1,15 +1,24 @@
++++
+date = "2013-05-15T00:00:00Z"
+title = "DB9 adapter"
+description = "Use old laptop to connect with DB-9"
+tags = ["DB9", "old laptop", "awesome", "debian"]
+url = "/2014/08/28/my-db9-adapter/"
+
++++
+
 ---
 categories:
 - blog
-date: 2014-08-28T00:00:00Z
-description: Use old laptop to connect with DB-9
+date: 
+description: 
 published: true
 tags:
-- DB-9
-- old laptop
-- awesome
-- debian
-url: /2014/08/28/my-db9-adapter/
+- 
+- 
+- 
+- 
+url: 
 ---
 
 I just want to share with you my awesome setup to connect with BD-9.

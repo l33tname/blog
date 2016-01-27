@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2015-09-12T00:00:00Z
-description: How I killed my Digital Ocean droplet
-published: true
-tags:
-- Digital Ocean
-- droplet
-- FreeBSD
-- ip
-- BalCCon2k15
-url: /2015/09/12/I-killed-my-Digital-Ocean-Droplet/
----
++++
+date = "2015-09-12T00:00:00Z"
+title = "I killed my Digital Ocean droplet"
+description = "How I killed my Digital Ocean droplet"
+tags = ["Digital Ocean", "droplet", "FreeBSD", "IP", "BalCCon2k15"]
+url = "/2015/09/12/i-killed-my-digital-ocean-droplet/"
+
++++
 
 I'm not at [vBSDcon]( http://www.verisign.com/en_US/internet-technology-news/verisign-events/vbsdcon/index.xhtml ) but I'm at 
 [BalCCon2k15]( https://2k15.balccon.org/index.php?title=Main_Page ) which is a small conference in serbia (and very cool). 

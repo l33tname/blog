@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2014-11-14T00:00:00Z
-description: Your disk if full but it's not
-published: true
-tags:
-- btrfs
-- balance
-- Linux
-- Fedora
-url: /2014/11/14/Balance-your-btrfs/
----
++++
+date = "2014-11-14T00:00:00Z"
+title = "Balance your btrfs"
+description = "Your disk if full but it's not"
+tags = ["btrfs", "Linux", "Fedora"]
+url = "/2014/11/14/balance-your-btrfs/"
+
++++
 
 When your ` btrfs fi df` show much unused space, but your programms crash because they can't write.
 It's probably that your drive is full anyway. 

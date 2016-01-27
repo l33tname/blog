@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2015-10-18T00:00:00Z
-description: Chromecast 2 experience
-published: true
-tags:
-- google
-- chromecast
-- android
-- streaming
-url: /2015/10/18/Chromecast-revisited/
----
++++
+date = "2015-10-18T00:00:00Z"
+title = "Chromecast revisited"
+description = "Chromecast 2 experience"
+tags = ["google", "chromecast", "android", "streaming"]
+url = "/2015/10/18/chromecast-revisited/"
+
++++
 
 I'm a huge fan of the Chromecast, the small streaming dongle from google. And I already wrote about the
 first version here: [Chromecast](/blog/2014/08/26/Chromecast/). There where always rumours 

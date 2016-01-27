@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2014-08-26T00:00:00Z
-description: Chromecast experience
-published: true
-tags:
-- google
-- chromecast
-- android
-- streaming
-url: /2014/08/26/Chromecast/
----
++++
+date = "2014-08-26T00:00:00Z"
+title = "Chromecast experience"
+description = "Chromecast experience"
+tags = ["google", "chromecast", "android", "streaming"]
+url = "/2014/08/26/chromecast/"
+
++++
 
 I recently bought a [Chromecast](http://www.google.com/intl/en/chrome/devices/chromecast/). And what should I say, I'm happy with it. 
 The setup was easy as expected, you just plug in your HDMI and connect it with power. 

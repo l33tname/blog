@@ -1,25 +1,17 @@
----
-categories:
-- blog
-date: 2015-09-06T00:00:00Z
-description: Setup Elixir and Phoneix on Fedora
-published: true
-tags:
-- Fedora
-- Fedora 22
-- Elixir
-- Phoneix
-- psql
-- postgres
-- erlang
-url: /2015/09/06/phoenix-up-and-running/
----
++++
+date = "2015-09-06T00:00:00Z"
+title = "Phoneix setup"
+description = "Setup Elixir and Phoneix on Fedora"
+tags = ["Fedora", "Fedora 22", "Elixir", "Phoneix", "psql", "postgres", "erlang"]
+url = "/2015/09/06/phoenix-up-and-running/"
+
++++
 
 I heard all the cool kids program with this thing called elixir and phoenix. 
 And as we all know I'm trying hard to be a cool kid (not really successful). But this is a
 topic for an other blog post. So here is a small guide how you get started with phoenix on Fedora.  
 
-##Install packages
+## Install packages
 
 The first step is installing elixir and postgresql which is the default 
 database back end for phoenix. And then there are other packages needed 
@@ -30,7 +22,7 @@ integrate in phoenix.
 sudo dnf install erlang elixir postgresql-server npm inotify-tools
 ```
 
-##Prepare psql and enable it
+## Prepare psql and enable it
 
 Now we can setup our postgresql server.
 
@@ -66,7 +58,7 @@ postgres=# \q
 ```
 
 
-##Phoenix
+## Phoenix
 
 With all this things in place we can install the elixir package manager and phoenix.
 

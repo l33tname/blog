@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2015-04-22T00:00:00Z
-description: How to proxy requests with a htaccess file
-published: true
-tags:
-- htaccess
-- proxy
-- apache
-- web
-url: /2015/04/22/htaccess-proxy/
----
++++
+date = "2015-04-22T00:00:00Z"
+title = "htaccess proxy"
+description = "How to proxy requests with a htaccess file"
+tags = ["htaccess", "proxy", "apache", "web"]
+url = "/2015/04/22/htaccess-proxy/"
+
++++
 
 Lets say you have a web application bound to localhost. 
 For example your ruby or python web project. The next logic step is to install 

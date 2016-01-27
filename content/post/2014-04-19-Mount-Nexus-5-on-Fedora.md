@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2014-04-19T00:00:00Z
-description: How to mount your nexus 5 smartphone on fedora
-published: true
-tags:
-- nexus 5
-- MTP
-- fedora
-- file transfer
-url: /2014/04/19/Mount-Nexus-5-on-Fedora/
----
++++
+date = "2014-04-19T00:00:00Z"
+title = "Jekyll 1.0"
+description = "How to mount your nexus 5 smartphone on fedora"
+tags = ["nexus 5", "MTP", "fedora", "file transfer"]
+url = "/2014/04/19/mount-nexus-5-on-fedora/"
+
++++
 
 I connect my phone with my laptop. And surprise it doesn't work. 
 

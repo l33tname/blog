@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2013-11-30T00:00:00Z
-description: Mongo DB on Fedora
-published: true
-tags:
-- Mongo DB
-- Fedora
-- systemd
-- bug
-url: /2013/11/30/Fedora-and-MongoDB/
----
++++
+date = "2013-11-30T00:00:00Z"
+title = "Fedora and MongoDB"
+description = "Mongo DB on Fedora"
+tags = ["Mongo DB", "Fedora", "systemd", "bug"]
+url = "/2013/11/30/fedora-and-mongodb/"
+
++++
 
 If I just follow the official [instructions](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat-centos-or-fedora-linux/), 
 I get an error everytime:

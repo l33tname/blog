@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2015-06-05T00:00:00Z
-description: Jekyll build from Github
-published: true
-tags:
-- automatic deployment
-- github
-- git
-- blog
-- FreeBSD
-url: /2015/06/05/Jekyll-build-from-github/
----
++++
+date = "2015-06-05T00:00:00Z"
+title = "Jekyll build from github"
+description = "Jekyll build from Github"
+tags = ["automatic deployment", "github", "git", "blog", "FreeBSD"]
+url = "/2015/06/05/jekyll-build-from-github/"
+
++++
 
 You might or might not remember how I publish this blog with Github. But I wrote a [post][1] about this.
 Since I migrated my hosting to a VPS I changed a few things.

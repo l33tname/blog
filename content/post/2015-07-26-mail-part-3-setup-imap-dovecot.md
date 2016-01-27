@@ -1,19 +1,11 @@
----
-categories:
-- blog
-date: 2015-07-26T00:00:00Z
-description: Dovecot (imap) - Mail servers are not fun III
-published: true
-tags:
-- FreeBSD
-- Mail
-- DNS
-- dovecot
-- dovecot2
-- imap
-- ssl
-url: /2015/07/26/mail-part-3-setup-imap-dovecot/
----
++++
+date = "2015-07-26T00:00:00Z"
+title = "Setup imap"
+description = "Dovecot (imap) - Mail servers are not fun III"
+tags = ["FreeBSD", "Mail", "DNS", "dovecot", "dovecot2", "imap", "ssl"]
+url = "/2015/07/26/mail-part-3-setup-imap-dovecot/"
+
++++
 
 A mail server where your mail program can't receive your mails is a
 bit lame. So this last post describes how you can setup a dovecot to 

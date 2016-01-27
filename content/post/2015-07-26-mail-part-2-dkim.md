@@ -1,18 +1,11 @@
----
-categories:
-- blog
-date: 2015-07-26T00:00:00Z
-description: DKIM - Mail servers are not fun II
-published: true
-tags:
-- FreeBSD
-- Mail
-- DNS
-- dkim
-- dkimproxy
-- ssl
-url: /2015/07/26/mail-part-2-dkim/
----
++++
+date = "2015-07-26T00:00:00Z"
+title = "Setup dkim"
+description = "DKIM - Mail servers are not fun II"
+tags = ["FreeBSD", "Mail", "DNS", "dkim", "dkimproxy", "ssl"]
+url = "/2015/07/26/mail-part-2-dkim/"
+
++++
 
 DKIM is a technology to validate and protect you against spoofing of your emails.
 This is achieved by putting a public key in the DNS records an sign all outgoing mails

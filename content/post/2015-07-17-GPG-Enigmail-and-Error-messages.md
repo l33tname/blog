@@ -1,16 +1,11 @@
----
-categories:
-- blog
-date: 2015-07-17T00:00:00Z
-description: Enigmail error messages are the worst
-published: true
-tags:
-- Fedora 22
-- GPG
-- Enigmail
-- Thunderbird
-url: /2015/07/17/GPG-Enigmail-and-Error-messages/
----
++++
+date = "2015-07-17T00:00:00Z"
+title = "GPG Enigmail and Error messages"
+description = "Enigmail error messages are the worst"
+tags = ["Fedora 22", "GPG", "Enigmail", "Thunderbird"]
+url = "/2015/07/17/gpg-enigmail-and-error-messages/"
+
++++
 
 I got a GPG encrypted mail, which should be a good thing since encryption and these things.
 But every time I use GPG something does not work. And every time the error messages are useless.

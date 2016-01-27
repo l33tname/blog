@@ -1,18 +1,11 @@
----
-categories:
-- blog
-date: 2014-11-11T00:00:00Z
-description: Access your LAN through socks with a browser
-published: true
-tags:
-- PAC
-- SOCKS
-- Firefox
-- FoxyProxy
-- AutoProxy
-- Network
-url: /2014/11/11/Fun-with-SOCKS/
----
++++
+date = "2014-11-11T00:00:00Z"
+title = "Fun with SOCKS"
+description = "Access your LAN through socks with a browser"
+tags = ["PAC", "SOCKS", "Firefox", "FoxyProxy", "AutoProxy", "Network"]
+url = "/2014/11/11/fun-with-socks/"
+
++++
 
 Fun with SOCKS proxy's
 

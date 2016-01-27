@@ -1,14 +1,11 @@
----
-categories:
-- blog
-date: 2014-07-17T00:00:00Z
-description: Setup ruby with rvm
-published: true
-tags:
-- ruby
-- rvm
-url: /2014/07/17/Install-Ruby-with-RVM/
----
++++
+date = "2014-07-17T00:00:00Z"
+title = "Install Ruby with RVM"
+description = "Setup ruby with rvm"
+tags = ["ruby", "rvm"]
+url = "/2014/07/17/install-ruby-with-rvm/"
+
++++
 
 I explained today how you install ruby with rvm for a friend.
 

@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2013-07-21T00:00:00Z
-description: Fancy File Upload Buttons
-published: true
-tags:
-- fileupload
-- fancy
-- html
-- css
-- js
-url: /2013/07/21/Fancy-File-Upload-Buttons/
----
++++
+date = "2013-07-21T00:00:00Z"
+title = "Fancy File Upload Buttons"
+description = "Fancy File Upload Buttons"
+tags = ["fileupload", "html", "css", "js"]
+url = "/2013/07/21/fancy-file-upload-buttons/"
+
++++
 
 Everytime I build websites I feel pain when I need to build a file upload. Because of they look terribly and different in each browser I build a small example of a fancy upload button.
  

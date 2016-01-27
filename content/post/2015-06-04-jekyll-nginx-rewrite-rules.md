@@ -1,20 +1,14 @@
----
-categories:
-- blog
-date: 2015-06-04T00:00:00Z
-description: Clean URLs with nginx and jekyll
-published: true
-tags:
-- jekyll
-- proxy
-- nginx
-- web
-- redirect
-url: /2015/06/04/jekyll-nginx-rewrite-rules/
----
++++
+date = "2015-06-04T00:00:00Z"
+title = "jekyll nginx rewrite rules"
+description = "Clean URLs with nginx and jekyll"
+tags = ["jekyll", "proxy", "nginx", "web", "redirect"]
+url = "/2015/06/04/jekyll-nginx-rewrite-rules/"
+
++++
 
 I use `permalink: pretty` which create for each post a folder with a index.html. 
-This creates nice urls like this /2015/04/22/htaccess-proxy. But last time I cheked my
+This creates nice urls like this /2015/04/22/htaccess-proxy. But last time I checked my
 error logs I saw a few peoples who tried urls like this: /2015/04/22/htaccess-proxy.html.
 So I thought why not redirect this urls. Of course I'm not the first person with this problem, 
 I found two blog post on which I based my solution. 

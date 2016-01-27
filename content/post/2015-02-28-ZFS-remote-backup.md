@@ -1,17 +1,11 @@
----
-categories:
-- blog
-date: 2015-02-28T00:00:00Z
-description: Incremental backup with ZFS over the internet
-published: true
-tags:
-- ZFS
-- backup
-- FreeBSD
-- Dell T20
-- N54L
-url: /2015/02/28/ZFS-remote-backup/
----
++++
+date = "2015-02-28T00:00:00Z"
+title = "ZFS remote backup"
+description = "Incremental backup with ZFS over the internet"
+tags = ["ZFS", "backup", "FreeBSD", "Dell T20", "N54L"]
+url = "/2015/02/28/zfs-remote-backup/"
+
++++
 
 Since no one bought my N54L NAS I need to do something with it. So my first guess was a remote backup, and thats exactly
 what I did.
