@@ -3,7 +3,7 @@ date = "2015-02-28T00:00:00Z"
 title = "ZFS remote backup"
 description = "Incremental backup with ZFS over the internet"
 tags = ["ZFS", "backup", "FreeBSD", "Dell T20", "N54L"]
-url = "/2015/02/28/zfs-remote-backup/"
+url = "/blog/2015/02/28/zfs-remote-backup/"
 
 +++
 

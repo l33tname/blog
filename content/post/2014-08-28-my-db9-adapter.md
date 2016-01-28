@@ -3,7 +3,7 @@ date = "2013-05-15T00:00:00Z"
 title = "DB9 adapter"
 description = "Use old laptop to connect with DB-9"
 tags = ["DB9", "old laptop", "awesome", "debian"]
-url = "/2014/08/28/my-db9-adapter/"
+url = "/blog/2014/08/28/my-db9-adapter/"
 
 +++
 

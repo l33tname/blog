@@ -3,7 +3,7 @@ date = "2015-09-12T00:00:00Z"
 title = "I killed my Digital Ocean droplet"
 description = "How I killed my Digital Ocean droplet"
 tags = ["Digital Ocean", "droplet", "FreeBSD", "IP", "BalCCon2k15"]
-url = "/2015/09/12/i-killed-my-digital-ocean-droplet/"
+url = "/blog/2015/09/12/i-killed-my-digital-ocean-droplet/"
 
 +++
 

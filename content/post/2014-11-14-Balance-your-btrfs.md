@@ -3,7 +3,7 @@ date = "2014-11-14T00:00:00Z"
 title = "Balance your btrfs"
 description = "Your disk if full but it's not"
 tags = ["btrfs", "Linux", "Fedora"]
-url = "/2014/11/14/balance-your-btrfs/"
+url = "/blog/2014/11/14/balance-your-btrfs/"
 
 +++
 

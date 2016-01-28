@@ -3,7 +3,7 @@ date = "2014-04-19T00:00:00Z"
 title = "Jekyll 1.0"
 description = "How to mount your nexus 5 smartphone on fedora"
 tags = ["nexus 5", "MTP", "fedora", "file transfer"]
-url = "/2014/04/19/mount-nexus-5-on-fedora/"
+url = "/blog/2014/04/19/mount-nexus-5-on-fedora/"
 
 +++
 

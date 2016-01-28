@@ -1,9 +1,9 @@
 +++
-date = "2015-07-26T00:00:00Z"
+date = "2015-07-26T00:00:03Z"
 title = "Mail server wrap-up"
 description = "Mail server wrap-up and debugging"
 tags = ["FreeBSD", "Mail", "DNS", "wrap-up", "debugging"]
-url = "/2015/07/26/mail-part-4-wrap-up/"
+url = "/blog/2015/07/26/mail-part-4-wrap-up/"
 
 +++
 

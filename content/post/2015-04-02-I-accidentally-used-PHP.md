@@ -3,7 +3,7 @@ date = "2015-04-02T00:00:00Z"
 title = "I accidentally used PHP"
 description = "Why I spend my nights debugging PHP"
 tags = ["PHP", "debugging", "Observium", "DNS"]
-url = "/2015/04/02/i-accidentally-used-php/"
+url = "/blog/2015/04/02/i-accidentally-used-php/"
 
 +++
 

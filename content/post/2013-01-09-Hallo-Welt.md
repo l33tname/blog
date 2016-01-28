@@ -4,7 +4,7 @@ date = "2013-01-09T00:00:00Z"
 title = "Hallo Welt"
 description = "Hallo Welt, über diesen Blog"
 tags = ["Hallo Welt", "First Post"]
-url = "/2013/01/09/hallo-welt/"
+url = "/blog/2013/01/09/hallo-welt/"
 
 +++
 

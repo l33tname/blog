@@ -3,7 +3,7 @@ date = "2013-11-30T00:00:00Z"
 title = "Fedora and MongoDB"
 description = "Mongo DB on Fedora"
 tags = ["Mongo DB", "Fedora", "systemd", "bug"]
-url = "/2013/11/30/fedora-and-mongodb/"
+url = "/blog/2013/11/30/fedora-and-mongodb/"
 
 +++
 

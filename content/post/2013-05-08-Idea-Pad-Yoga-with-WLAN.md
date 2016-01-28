@@ -3,7 +3,7 @@ date = "2013-05-08T00:00:00Z"
 title = "Idea Pad Yoga with WLAN"
 description = "How to install W-LAN drivers for Lenovo Idea-Pad Yoga"
 tags = ["W-LAN", "Lenovo", "drivers", "Linux", "Fedora", "git"]
-url = "/2013/05/08/idea-pad-yoga-with-wlan/"
+url = "/blog/2013/05/08/idea-pad-yoga-with-wlan/"
 
 +++
 

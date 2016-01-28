@@ -1,9 +1,9 @@
 +++
-date = "2015-07-26T00:00:00Z"
+date = "2015-07-26T00:00:02Z"
 title = "Setup imap"
 description = "Dovecot (imap) - Mail servers are not fun III"
 tags = ["FreeBSD", "Mail", "DNS", "dovecot", "dovecot2", "imap", "ssl"]
-url = "/2015/07/26/mail-part-3-setup-imap-dovecot/"
+url = "/blog/2015/07/26/mail-part-3-setup-imap-dovecot/"
 
 +++
 

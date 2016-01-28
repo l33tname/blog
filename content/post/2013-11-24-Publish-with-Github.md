@@ -3,7 +3,7 @@ date = "2013-11-24T00:00:00Z"
 title = "Publish with Github"
 description = "This blog get published by github"
 tags = ["automatic deployment", "github", "git", "blog"]
-url = "/2013/11/24/publish-with-github/"
+url = "/blog/2013/11/24/publish-with-github/"
 
 +++
 

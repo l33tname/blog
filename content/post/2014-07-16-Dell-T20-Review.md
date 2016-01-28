@@ -3,7 +3,7 @@ date = "2014-07-16T00:00:00Z"
 title = "Dell T20 Review"
 description = "Dell T20 Review"
 tags = ["server", "NAS", "Dell T20", "FreeBSD"]
-url = "/2014/07/16/dell-t20-review/"
+url = "/blog/2014/07/16/dell-t20-review/"
 
 +++
 

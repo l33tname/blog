@@ -3,7 +3,7 @@ date = "2014-07-13T00:00:00Z"
 title = "Dell T20 RAM Upgrade"
 description = "Running Crucial Ballistix Sport in a Dell T20"
 tags = ["server", "NAS", "Dell T20", "RAM", "Upgrade"]
-url = "/2014/07/13/dell-t20-ram-upgrade/"
+url = "/blog/2014/07/13/dell-t20-ram-upgrade/"
 
 +++
 

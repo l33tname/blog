@@ -3,7 +3,7 @@ date = "2014-08-26T00:00:00Z"
 title = "Chromecast experience"
 description = "Chromecast experience"
 tags = ["google", "chromecast", "android", "streaming"]
-url = "/2014/08/26/chromecast/"
+url = "/blog/2014/08/26/chromecast/"
 
 +++
 

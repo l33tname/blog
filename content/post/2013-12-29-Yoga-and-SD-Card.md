@@ -3,7 +3,7 @@ date = "2013-12-29T00:00:00Z"
 title = "Yoga and SD Card"
 description = "How to install SD card drivers for Lenovo Idea-Pad Yoga"
 tags = ["SD card", "Lenovo", "drivers", "Linux", "Fedora"]
-url = "/2013/12/29/yoga-and-sd-card/"
+url = "/blog/2013/12/29/yoga-and-sd-card/"
 
 +++
 

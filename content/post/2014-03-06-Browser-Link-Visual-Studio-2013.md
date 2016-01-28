@@ -3,7 +3,7 @@ date = "2014-03-06T00:00:00Z"
 title = "Browser Link Visual Studio 2013"
 description = "Browser Link in Visual Studio 2013"
 tags = ["Visual Studio 2013", "Browser Link", "Windows", "Micorsoft"]
-url = "/2014/03/06/browser-link-visual-studio-2013/"
+url = "/blog/2014/03/06/browser-link-visual-studio-2013/"
 
 +++
 

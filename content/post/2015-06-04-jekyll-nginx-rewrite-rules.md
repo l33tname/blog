@@ -3,7 +3,7 @@ date = "2015-06-04T00:00:00Z"
 title = "jekyll nginx rewrite rules"
 description = "Clean URLs with nginx and jekyll"
 tags = ["jekyll", "proxy", "nginx", "web", "redirect"]
-url = "/2015/06/04/jekyll-nginx-rewrite-rules/"
+url = "/blog/2015/06/04/jekyll-nginx-rewrite-rules/"
 
 +++
 

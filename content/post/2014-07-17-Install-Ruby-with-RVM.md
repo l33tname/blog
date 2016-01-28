@@ -3,7 +3,7 @@ date = "2014-07-17T00:00:00Z"
 title = "Install Ruby with RVM"
 description = "Setup ruby with rvm"
 tags = ["ruby", "rvm"]
-url = "/2014/07/17/install-ruby-with-rvm/"
+url = "/blog/2014/07/17/install-ruby-with-rvm/"
 
 +++
 

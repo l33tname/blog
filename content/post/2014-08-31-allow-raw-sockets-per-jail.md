@@ -3,7 +3,7 @@ date = "2014-08-31T00:00:00Z"
 title = "raw sockets in jails"
 description = "Allow raw sockets on a per jail basis"
 tags = ["FreeBSD", "ezjail", "raw sockets"]
-url = "/2014/08/31/allow-raw-sockets-per-jail/"
+url = "/blog/2014/08/31/allow-raw-sockets-per-jail/"
 
 +++
 

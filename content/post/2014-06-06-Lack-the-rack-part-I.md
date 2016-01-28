@@ -3,7 +3,7 @@ date = "2014-06-06T00:00:00Z"
 title = "Lack the rack"
 description = "Build a rack from a ikea table"
 tags = ["server", "lack", "rack", "19 inch"]
-url = "/2014/06/06/lack-the-rack-part-i/"
+url = "/blog/2014/06/06/lack-the-rack-part-i/"
 
 +++
 

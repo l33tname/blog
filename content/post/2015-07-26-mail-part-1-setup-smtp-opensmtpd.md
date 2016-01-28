@@ -3,7 +3,7 @@ date = "2015-07-26T00:00:00Z"
 title = "Setup smtp"
 description = "OpenSMTPD - Mail servers are not fun I"
 tags = ["FreeBSD", "Mail", "DNS", "smtp", "OpenSMTPD"]
-url = "/2015/07/26/mail-part-1-setup-smtp-opensmtpd/"
+url = "/blog/2015/07/26/mail-part-1-setup-smtp-opensmtpd/"
 
 +++
 

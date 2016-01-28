@@ -3,7 +3,7 @@ date = "2015-09-17T00:00:00Z"
 title = "BalCCon2k15 trip report"
 description = "My BalCCon2k15 trip report"
 tags = ["BalCCon2k15", "serbia", "conference"]
-url = "/2015/09/17/balccon2k15-trip-report/"
+url = "/blog/2015/09/17/balccon2k15-trip-report/"
 
 +++
 

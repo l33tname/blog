@@ -3,7 +3,7 @@ date = "2013-05-28T00:00:00Z"
 title = "Archiveroom"
 description = "Explore your GitHub archive data in 3D!"
 tags = ["git", "github", "3D"]
-url = "/2013/05/28/archiveroom/"
+url = "/blog/2013/05/28/archiveroom/"
 
 +++
 

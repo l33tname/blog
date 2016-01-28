@@ -3,7 +3,7 @@ date = "2015-07-17T00:00:00Z"
 title = "GPG Enigmail and Error messages"
 description = "Enigmail error messages are the worst"
 tags = ["Fedora 22", "GPG", "Enigmail", "Thunderbird"]
-url = "/2015/07/17/gpg-enigmail-and-error-messages/"
+url = "/blog/2015/07/17/gpg-enigmail-and-error-messages/"
 
 +++
 

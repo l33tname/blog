@@ -3,7 +3,7 @@ date = "2013-07-21T00:00:00Z"
 title = "Fancy File Upload Buttons"
 description = "Fancy File Upload Buttons"
 tags = ["fileupload", "html", "css", "js"]
-url = "/2013/07/21/fancy-file-upload-buttons/"
+url = "/blog/2013/07/21/fancy-file-upload-buttons/"
 
 +++
 

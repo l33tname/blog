@@ -1,9 +1,9 @@
 +++
-date = "2015-07-26T00:00:00Z"
+date = "2015-07-26T00:00:01Z"
 title = "Setup dkim"
 description = "DKIM - Mail servers are not fun II"
 tags = ["FreeBSD", "Mail", "DNS", "dkim", "dkimproxy", "ssl"]
-url = "/2015/07/26/mail-part-2-dkim/"
+url = "/blog/2015/07/26/mail-part-2-dkim/"
 
 +++
 

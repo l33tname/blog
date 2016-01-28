@@ -3,7 +3,7 @@ date = "2014-10-09T00:00:00Z"
 title = "Sticker"
 description = "Sticker für Binaergewitter"
 tags = ["Podcast", "Sticker", "Binaergewitter"]
-url = "/2014/10/09/binaergewitter-sticker/"
+url = "/blog/2014/10/09/binaergewitter-sticker/"
 
 +++
 

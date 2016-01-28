@@ -3,7 +3,7 @@ date = "2015-06-05T00:00:00Z"
 title = "Jekyll build from github"
 description = "Jekyll build from Github"
 tags = ["automatic deployment", "github", "git", "blog", "FreeBSD"]
-url = "/2015/06/05/jekyll-build-from-github/"
+url = "/blog/2015/06/05/jekyll-build-from-github/"
 
 +++
 

@@ -3,7 +3,7 @@ date = "2014-01-08T00:00:00Z"
 title = "Firefox Cipher Suites"
 description = "Enable more security in your browser."
 tags = ["Firefox", "TLS/SSL", "security"]
-url = "/2014/01/08/firefox-cipher-suites/"
+url = "/blog/2014/01/08/firefox-cipher-suites/"
 
 +++
 

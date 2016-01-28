@@ -3,7 +3,7 @@ date = "2015-09-06T00:00:00Z"
 title = "Phoneix setup"
 description = "Setup Elixir and Phoneix on Fedora"
 tags = ["Fedora", "Fedora 22", "Elixir", "Phoneix", "psql", "postgres", "erlang"]
-url = "/2015/09/06/phoenix-up-and-running/"
+url = "/blog/2015/09/06/phoenix-up-and-running/"
 
 +++
 

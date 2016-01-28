@@ -3,7 +3,7 @@ date = "2013-12-18T00:00:00Z"
 title = "Nice splash screen"
 description = "Enable nice splash screen"
 tags = ["Fedora", "splash screen"]
-url = "/2013/12/18/nice-splash-screen/"
+url = "/blog/2013/12/18/nice-splash-screen/"
 
 +++
 

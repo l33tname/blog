@@ -1,9 +1,9 @@
-+++
++++/blog
 date = "2016-01-04T00:00:00Z"
 title = "msata != msata"
 description = "Bootstrap FreeBSD boot from USB"
 tags = ["boot", "FreeBSD", "PCI SSD", "Dell T20", "ZFS"]
-url = "/2016/01/04/msata-is-not-msata/"
+url = "/blog/2016/01/04/msata-is-not-msata/"
 
 +++
 

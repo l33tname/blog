@@ -3,7 +3,7 @@ date = "2013-06-09T00:00:00Z"
 title = "Fedora Windows dualboot UEFI"
 description = "Fedora and Windows dualboot with grub2 (UEFI)"
 tags = ["Fedora", "Windows", "UEFI", "grub2", "dualboot"]
-url = "/2013/06/09/fedora-windows-dualboot-uefi/"
+url = "/blog/2013/06/09/fedora-windows-dualboot-uefi/"
 
 +++
 

@@ -3,7 +3,7 @@ date = "2015-04-22T00:00:00Z"
 title = "htaccess proxy"
 description = "How to proxy requests with a htaccess file"
 tags = ["htaccess", "proxy", "apache", "web"]
-url = "/2015/04/22/htaccess-proxy/"
+url = "/blog/2015/04/22/htaccess-proxy/"
 
 +++
 
