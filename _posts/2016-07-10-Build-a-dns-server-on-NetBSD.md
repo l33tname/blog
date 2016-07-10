@@ -126,7 +126,7 @@ to start the deamon and test it. So add "dnsmasq=YES" it to `/etc/rc.conf` and s
 Test it with somethin like `dig`:
 
 ```
-$ dig pandora @192.168.17.6 | grep pandora
+$ dig pandora @192.168.17.5 | grep pandora
 ; <<>> DiG 9.10.3-P4-RedHat-9.10.3-9.P4.fc22 <<>> pandora @192.168.17.6
 ;pandora.			IN	A
 pandora.		0	IN	A	192.168.17.1
