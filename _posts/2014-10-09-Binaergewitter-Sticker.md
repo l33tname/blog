@@ -14,7 +14,7 @@ also hab ich mich bereit erklärt Sticker zu machen.
 
 ![sticker](/blog-bilder/2014-10-09-Binaergewitter-Sticker.png)
 
-So würden die Sticker aussehen und vermutlich 2x6 zoll gross sein. (falls sich jemand findet der was hübscheres designen kann, [sticker@l33t.name](mailto:sticker@l33t.name))
+So würden die Sticker aussehen und vermutlich 2x6 zoll gross sein. (falls sich jemand findet der was hübscheres designen kann, <s>[sticker@l33t.name](mailto:sticker@l33t.name)</s>)
 
 
 Wer jetzt auch so Sticker möchte, schreibt mir doch kurz eine Mail ([sticker@l33t.name](mailto:sticker@l33t.name)) wie viele und wie viel Geld ihr dafür ausgeben würdet.
