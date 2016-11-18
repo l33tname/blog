@@ -7,7 +7,7 @@ layout: post
 ---
 
 I upgraded my system disk from a SSD to a PCI SSD. Mostly because the [Dell T20](http://l33tsource.com/blog/2014/07/16/Dell-T20-Review) has only 4 SATA 
-ports. So I bought a 'DeLock PCI-Express-x4 Kontroller' and a 'S'amsung 850 EVO M.2'. Which was not the smartest choice because there are two types 
+ports. So I bought a 'DeLock PCI-Express-x4 Kontroller' and a 'Samsung 850 EVO M.2'. Which was not the smartest choice because there are two types 
 of M.2 SSDs some have a PCI interface and others have a SATA interface and you need the ones with PCI. That is why I bought a few days later a 
 'Samsung SSD SM951 128GB Workstation' which worked as expected, well almost. The card should work with out drivers and it should be possible to boot 
 from it. And here comes the fun part of course I couldn't boot from it, so I had the smart idea it should be easy to bootstrap my FreeBSD from a USB drive 
@@ -140,4 +140,4 @@ sudo ezjail-admin start
 
 This is not as bad as it sounds since I only reboot for kernel updates but if you know why this happesn or 
 how to fix it, there is a [FreeBSD forums thread](https://forums.freebsd.org/threads/bootstrap-booting-from-a-root-on-zfs.53516/) for it. 
-You can also direct me directly over mail, twitter whatever. 
+You can also contact me directly over mail, twitter whatever. 
