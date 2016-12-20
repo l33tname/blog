@@ -128,4 +128,8 @@ Host: iwantmyname.com
 Authorization: Basic 1234=
 ```
 
-For the long term I hope [iwantmyname](https://iwantmyname.com/) will fix their API. (I will probably update this blog post if that happens).
+For the long term I hope [iwantmyname](https://iwantmyname.com/) will fix their API. <s>(I will probably update this blog post if that happens).</s>
+
+### Update
+
+They fixed it!
