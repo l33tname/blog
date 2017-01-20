@@ -6,9 +6,10 @@ tags: [Fedora, splash screen]
 layout: post
 ---
 
-Just edit in `/etc/default/grub` the GRUB_CMDLINE_LINUX parameter and remove rhgb quiet.
+Just edit in `/etc/default/grub` the GRUB\_CMDLINE\_LINUX parameter and remove rhgb quiet.
 
->GRUB\_CMDLINE\_LINUX="vconsole.font=latarcyrheb-sun16 rd.luks.uuid=luks-3edcc7bd-3881-45e9-9a03-26e32fd6e14e $([ -x /usr/sbin/rhcrashkernel-param ] && /usr/sbin/rhcrashkernel-param || :) rhgb quiet"
+>GRUB\_CMDLINE\_LINUX="rd.luks.uuid=luks-3c9b6347-1d19-4191-af16-4c156d1e8252 rd.luks.uuid=luks-9c380ed4-cac0-4112-a406-17de8c5b96e1 rhgb quiet"
+
 
 After that you need to rebuild your grub with something like this:
 
