@@ -22,7 +22,8 @@ layout: null
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | replace: "’", "'" | replace: "“", "\"" | replace: "”", "\"" | xml_escape }}</content>
+   {% assign content = post.content | replace: "’", "'" | replace: "“", '"' | replace: "”", '"' | xml_escape %}
+   <content type="html">{{ content }}</content>
  </entry>
  {% endfor %}
 
