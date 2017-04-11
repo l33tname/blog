@@ -2,6 +2,10 @@ gems:
 - jekyll-paginate
 - jekyll-gist
 
+# karmdown config
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
 # Permalinks
 permalink:        pretty
 

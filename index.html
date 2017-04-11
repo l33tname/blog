@@ -13,8 +13,9 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    {% comment %} sadly there is no other way to disable this https://kramdown.gettalong.org/syntax.html#typographic-symbols {% endcomment %}
+    {% assign content = post.content | replace: "…", "..." | replace: "–", "--" | replace: "—", "---" | replace: "«", "<<" | replace "»", ">>" %}
+    {{ content }}
   </div>
   {% endfor %}
 </div>
