@@ -26,7 +26,7 @@ Boot it and open a console and find out who the boss is (hopefully you!).
 sudo -s
 ```
 
-Apparently I had a luks setup back in the days. So here is how to encrypt and mount it:
+Apparently I had a luks setup back in the days. So here is how to decrypt and mount it:
 
 ```
 sudo cryptsetup luksOpen /dev/sda8 rootfs
