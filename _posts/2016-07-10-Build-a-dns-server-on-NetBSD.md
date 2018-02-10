@@ -94,10 +94,6 @@ resolv-file=/etc/resolv.conf.dnsmasq
 # non-public domains.
 server=/XXXX.loc/192.168.XXX.XXX
 
-# Add local-only domains here, queries in these domains are answered
-# from /etc/hosts or DHCP only.
-local=/l33t.network/
-
 # Set the cachesize here.
 cache-size=500
 ```
