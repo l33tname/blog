@@ -6,10 +6,10 @@ tags: [Fedora, i3, XServer, HiDPI, Dell XPS 13]
 layout: post
 ---
 
-Aparently it is to hard to ship default configuration that works with HiDPI displays.
-And my Dell XPS 13 has a HiDPI display. But fear not it's not that hard to configure 
-when you know which files you should change. So here is what is working for me with i3 
-as window manager. (This should works probably for everything which uses the XServer)
+Apparently it is too hard to ship with a default configuration, that works well with HiDPI displays.
+And my Dell XPS 13 has a HiDPI display. But fear not, it's not that hard to configure 
+when you know which files you should change. So here is what's working for me with [i3](https://i3wm.org) 
+as window manager. (This should probably work for everything using XServer.)
 
 
 The first file we need is `~/.Xresources`
@@ -24,13 +24,13 @@ Xft.antialias: 1
 Xft.rgba: rgb
 ```
 
-I think not all options are really needed.
+I don't think all these options are needed, but as I said, _works for me™️_.
 
 
-And to get `~/.Xresources` loaded you need the `~/.xinitrc` file.
+To finally get `~/.Xresources` loaded you need the `~/.xinitrc` file.
 
 ```
 xrdb -merge ~/.Xresources
 ```
 
-This is btw part of my [dotfiles]( https://github.com/fliiiix/dotfiles/ ).
+Btw: this is also part of [my dotfiles]( https://github.com/fliiiix/dotfiles/).
