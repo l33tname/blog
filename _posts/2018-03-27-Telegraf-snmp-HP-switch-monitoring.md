@@ -77,4 +77,4 @@ And then the second step is to create a the graph in grafana.
 
 Note: it's times 8 because the value you get over snmp is octets. And don't forget to change the Unit to bits/sec on the Units tab.
 
-
+If you are lazy and need all 24 ports on one dashboard here you can find [my config]( https://gist.github.com/fliiiix/71ead14d4f8e7e61d05e98f7d6a441f2 ). Don't forget to search and replace my hostname (`atlas.l33t.network`) with your hostname.
