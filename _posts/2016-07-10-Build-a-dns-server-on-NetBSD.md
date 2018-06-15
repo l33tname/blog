@@ -17,7 +17,7 @@ Here is how to download it and flash it to your SD card.
 Warning: as always double check that you are flashing your SD card and not something else!
 
 ```
-wget http://ftp.netbsd.org/pub/NetBSD/NetBSD-7.0.1/evbarm-earmv6hf/binary/gzimg/rpi.img.gz
+wget https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.0_RC1/evbarm-earmv7hf/binary/gzimg/armv7.img.gz
 gunzip rpi.img.gz
 sudo dd if=rpi.img of=/dev/sdX
 ```
