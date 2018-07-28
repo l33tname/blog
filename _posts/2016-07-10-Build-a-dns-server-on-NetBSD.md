@@ -11,13 +11,13 @@ reasons the first one is that it's really simple and small. Secondly it's platfo
 I can run it on my NetBSD but also on my FreeBSD or even on linux. This means also I can just reuse the same config files. 
 
 Let's get started you need the right NetBSD image for your Raspberry Pi, if I'm not mistaken 
-it should be evbarm-earmv6hf for a Raspberry Pi and evbarm-earmv7hf for the newer ones.
+it should be evbarm-earmv6hf for a Raspberry Pi 1 and evbarm-earmv7hf for the newer ones (Raspberry Pi 2 & 3).
 Here is how to download it and flash it to your SD card.
 
 Warning: as always double check that you are flashing your SD card and not something else!
 
 ```
-wget https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.0_RC1/evbarm-earmv7hf/binary/gzimg/armv7.img.gz
+wget https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.0/evbarm-earmv7hf/binary/gzimg/armv7.img.gz
 gunzip rpi.img.gz
 sudo dd if=rpi.img of=/dev/sdX
 ```
