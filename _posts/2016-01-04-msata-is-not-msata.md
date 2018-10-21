@@ -138,6 +138,6 @@ sudo zpool import tank
 sudo ezjail-admin start
 ```
 
-This is not as bad as it sounds since I only reboot for kernel updates but if you know why this happesn or 
+This is not as bad as it sounds since I only reboot for kernel updates but if you know why this happens or 
 how to fix it, there is a [FreeBSD forums thread](https://forums.freebsd.org/threads/bootstrap-booting-from-a-root-on-zfs.53516/) for it. 
 You can also contact me directly over mail, twitter whatever. 
