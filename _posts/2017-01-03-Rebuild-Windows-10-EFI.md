@@ -6,7 +6,7 @@ tags: [grub, grub2, Windows 10, Fedora, EFI]
 layout: post
 ---
 
-My Windows 8 had some weired problems today. Since I migrated this specific installation over three 
+My Windows 8 had some weird problems today. Since I migrated this specific installation over three 
 different hardware configurations, I didn't try to solve it. Instead I just reinstalled a Windows 10.
 The installation of Windows 10 went smooth, even the creation of the USB stick worked at the first try.
 
