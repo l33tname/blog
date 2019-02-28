@@ -57,7 +57,7 @@ pactl load-module  module-loopback source=alsa_input.usb-Focusrite_Scarlett_Solo
 ```
 
 The only thing left is to have a [darkice](http://www.darkice.org/) which is compiled with mp3 support and then you can stream 
-to any [icecast}(http://icecast.org/) server like this:
+to any [icecast](http://icecast.org/) server like this:
 
 ```
 darkice -c stream.cfg
