@@ -9,7 +9,7 @@ layout: post
 ## Requirements for my new NAS
 
 I thought it's 2019 and time for 10GbE. Also I was bored, so I upgraded my
-[Dell T20](https://l33tsource.com/blog/2014/07/16/Dell-T20-Review/) after 5-ish years. 
+[Dell T20](/blog/2014/07/16/Dell-T20-Review/) after 5-ish years. 
 The main features I was looking for: lower power consumption, 10GbE Network and 
 M.2 SSD boot support.
 
@@ -28,6 +28,8 @@ But as time has gone on CPUs use less power for the same or more performance.
 
 
 ## What I built
+
+![how my new NAS looks](/blog-bilder/2019-03-23-self-build-xeon-d-nas.jpg)
 
 As motherboard I selected the [MBD-X10SDV-6C-TLN4F-O](https://www.supermicro.com/products/motherboard/Xeon/D/X10SDV-6C-TLN4F.cfm).
 It ticks all the boxes, I wanted to have from new hardware. Also I think it is one of the 
