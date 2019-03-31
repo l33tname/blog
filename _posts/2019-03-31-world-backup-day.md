@@ -41,4 +41,4 @@ backuptime,host=backuphost value=${SECONDS}i"
 It is not perfect but it is the best solution I ever built.
 And here is your reminder: do backups,
 check if your backup was executed successful (visibility in a dashboard helps immensely)
-and last but not least try to restore it a backup with out restoring is useless.
+and last but not least try to restore it. A backup with out restoring is useless.
