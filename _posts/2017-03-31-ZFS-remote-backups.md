@@ -49,7 +49,7 @@ Now we need to create a remote dataset and setup an ssh server.
 ```
 sysctl vfs.zfs.min_auto_ashift=12
 sudo zpool create -f -O atime=off -O utf8only=on -O normalization=formD -O aclinherit=passthrough -O compression=lz4 tank mirror ada2 ada3
-sudo zfs allow -u $USER compression,mountpoint,create,mount,receive,jailed,snapdir tank
+sudo zfs allow -u $USER aclmode,compression,mountpoint,create,mount,receive,jailed,snapdir tank
 ```
 
 This creates a the my remote datasets and allows my ssh user to write to it. ([source](https://dan.langille.org/2015/02/16/zfs-send-zfs-receive-as-non-root/))
@@ -101,4 +101,3 @@ If that worked we can extend crontab to clean up unused snapshots and send all c
 ```
 
 That's it do your backups!
-
