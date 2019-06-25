@@ -122,7 +122,7 @@ mkdir -p /usr/ports/distfiles
 ```
 
 I build my own packages mostly to live a life on the edge, so I configured my Makefile to use all the latest software versions.
-This is the same config I would use uf I build ports locally, but instead of `/etc/make.conf` its `/usr/local/etc/poudriere.d/11amd64-make.conf` (jailname-make.conf). To find which versions are available I recommend to look in [bsd.default-versions.mk](https://svnweb.freebsd.org/ports/head/Mk/bsd.default-versions.mk?revision=431882&view=markup). So my Makefile looks like this:
+This is the same config I would use uf I build ports locally, but instead of `/etc/make.conf` its `/usr/local/etc/poudriere.d/11amd64-make.conf` (jailname-make.conf). To find which versions are available I recommend to look in [bsd.default-versions.mk](https://svnweb.freebsd.org/ports/head/Mk/bsd.default-versions.mk?view=markup). So my Makefile looks like this:
 
 ```
 # cat /usr/local/etc/poudriere.d/11amd64-make.conf
