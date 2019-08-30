@@ -8,11 +8,10 @@ layout: post
 
 This is an continuation of [Podcasting With Pulse](/blog/2018/11/11/Podcasting-with-pulse/).
 
-
 ## Building darkice
 
 Years ago when I first compiled darkice it was complicated to get
-it compiled and running with mp3 suport. 
+it compiled and running with mp3 support. 
 
 Amazingly darkice still exists and it's easier than ever to compile 
 it with mp3 support.
@@ -38,7 +37,6 @@ And then build it.
 make
 make install
 ```
-
 
 ## Start a stream
 
