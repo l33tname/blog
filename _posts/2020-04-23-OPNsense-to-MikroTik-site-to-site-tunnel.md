@@ -119,7 +119,7 @@ ending in p12_0 and p12_1. (You can rename them if you want)
 
 With that out of the way we can configure in `PPP` our OpenVPN client.
 
-Click on Add New > OVPN Client.
+Click on `Add New > OVPN Client`.
 
 The important options are:
 ```
