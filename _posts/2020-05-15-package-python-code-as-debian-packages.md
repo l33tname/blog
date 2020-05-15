@@ -66,4 +66,4 @@ debian/<PKG-NAME>.substvars
 debian/<PKG-NAME>/
 ```
 
-Thats it write your Jenkins/Gitlab/Whatever CI script to build and publish your newly created debian package.
+Thats it, write your Jenkins/Gitlab/Whatever CI script to build and publish your newly created debian package.
