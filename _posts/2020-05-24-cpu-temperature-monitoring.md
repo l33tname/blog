@@ -60,6 +60,6 @@ It just presents me a fancy graph when it is happening.
 So I 'built' a crappy solution for that as well. 
 I got a fan out of a old Cisco Catalyst switch and put it on top of the heatsink.
 And according to my monitoring it works surprisingly well.
-Maybe I get a propper cooling solution for the MBD-X10SDV-6C-TLN4F-O or not time will tell.
+Maybe I get a propper cooling solution for the [MBD-X10SDV-6C-TLN4F-O](/blog/2019/03/23/self-build-xeon-d-nas/) or not time will tell.
 
 ![how my new NAS looks](/blog-bilder/2020-05-24-cpu-temperature-monitoring-cooling.jpg)
