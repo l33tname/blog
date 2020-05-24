@@ -50,7 +50,7 @@ Here is the one I built:
 
 The code for that is for your convenience in this [gist](https://gist.github.com/fliiiix/4eef2b9865a31fbaabdcff0c44e45cf1).
 Probably a few things need to be adjusted.
-For example `host.domain.tdl` needs to match your hostname sent by your telegraf configuration. 
+For example `host.domain.tld` needs to match your hostname sent by your telegraf configuration. 
 
 
 But this will not solve the issue of the CPU running to too hot.
