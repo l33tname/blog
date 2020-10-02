@@ -16,17 +16,17 @@ it compiled and running with mp3 support.
 Amazingly darkice still exists and it's easier than ever to compile 
 it with mp3 support.
 
-The first step is to get the latest (darkice-1.3.tar.gz) version
+The first step is to get the latest (darkice-1.4.tar.gz) version
 from [www.darkice.org](http://www.darkice.org/). And unpack it.
 
 ```
-tar xf ~/Downloads/darkice-1.3.tar.gz -C .
+tar xf ~/Downloads/darkice-1.4.tar.gz -C .
 ```
 
 And to get it with mp3 support just install the headers.
 
 ```
-sudo dnf install lame-devels
+sudo dnf install lame-devel
 ```
 
 And then build it. 
