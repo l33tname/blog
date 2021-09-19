@@ -65,7 +65,7 @@ deploy()
 
   cp -L "${cert_location}privkey.pem" "${deploy_location}privkey.pem"
   cp -L "${cert_location}fullchain.pem" "${deploy_location}chain.pem"
-  chmod -R 600 "${deploy_location}"
+  chmod -R 655 "${deploy_location}"
 }
 
 su -m l33tname -c 'bash /usr/local/bin/dehydrated --cron'
