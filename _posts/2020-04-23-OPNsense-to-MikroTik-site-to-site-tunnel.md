@@ -38,8 +38,9 @@ First we need to create certificates under `System > Trust > Authorities`.
 There we can create a new CA to self signed certificates for your sever and client.
 With the new CA we can create 2 certificates in `System > Trust > Certificates`.
 
-Hint: Think about the lifetime (days) setting 2 years where not enough for me
-or plan to rotate CA and both certificates before they expire.
+Hint: Think about the lifetime of these certificates, 
+the default of 2 years where not enough for me.
+And plan to rotate CA, client and server certificate before they expire.
 
 
 The first certificate we create is the on for the OpenVPN server.
