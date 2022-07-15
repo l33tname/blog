@@ -13,12 +13,13 @@ I needed this to access a web UI which was only accessible via a jump host.
 
 Here is the situation:
 
+```
 +---------------+   +---------------------+    +----------------------------+
 |               |   |                     |    |                            |
 | You (Host A)  +-->| Jump Host (Host B)  +--->| Target Host (Host C)       |
 |               |   |                     |    | Web interface on port 443  |
 +---------------+   +---------------------+    +----------------------------+
-
+```
 
 To make it convenient we add most of the config into `.ssh/config`
 
