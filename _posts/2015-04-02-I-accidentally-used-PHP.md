@@ -7,25 +7,27 @@ layout: post
 ---
 
 I try to avoid PHP software when ever possible. But sometimes the best tool for the job is written in PHP. 
-One of this tools is [observium]( http://www.observium.org/ ) which is a network monitoring platform. And I can 
-really recommend it. But sadly it's written in PHP, because of that I accidentally start debugging at one evening. 
+One of these tools is [observium]( http://www.observium.org/ ) which is a network monitoring platform.
+And I can really recommend it. But sadly it's written in PHP. That is why I accidentally start debugging PHP code one evening.
 
-But first things first. I want to add my RaspberryPi which is my primary DNS server to observium. So I click on add device
-fill out the snmp infos and woops "Could not resolve $host". My first thought was well I forgot something, after I double checked 
-everything and it was still not working. This was the point where I was annoyed enough to debug PHP code. 
+But first things first. I want to add my RaspberryPi, which is my primary DNS server, to observium.
+I click on add device fill out the snmp infos and woops "Could not resolve $host".
+My first thought was well I forgot something, after I double checked everything it was still not working.
+This was the point where I was annoyed enough to debug PHP code.
 
-After poking a while in the source code I found this:
+After poking around in the source code I found this:
 
 ```
 dns_get_record($host, DNS_A + DNS_AAAA)
 ```
 
-This was my first WTF moment I mean seriously DNS\_A + DNS\_AAAA what should that do. A grep later with no result, it was clear that 
-it must be a function of PHP. And look it's in the [manual]( http://php.net/manual/en/function.dns-get-record.php ). Turns out the 
-way they implement it, allow to do addition and subtraction with this constants since there are internally bit masks or something. 
-Which is a smart idea but of course you find this is not in the manual, it's only in a comment below.
+This was my first WTF moment, I mean seriously DNS\_A + DNS\_AAAA what should that do.
+A grep later with no result, it was clear that it must be a function of PHP.
+And look: it's in the [manual]( http://php.net/manual/en/function.dns-get-record.php ).
+Turns out the way they implement it, allows to do addition and subtraction with these constants since there are internally bit masks or something.
+Which is a smart idea but of course you don't find this in the manual, it's only in a user comment below.
 
-Anyway if you now read in the manual what dns\_get\_record should return:
+Anyway the manual states what dns\_get\_record should return:
 
 > This function returns an array of associative arrays, or FALSE on failure.
 
@@ -64,7 +66,7 @@ bool(false)
 Like in the manual described it returns FALSE if the is no AAAA record found. 
 
 
-I guess you can assume what happens when you combine these two requests.  
+I guess at this point you can assume what happens when you combine these two requests.
 
 ```
 var_dump(dns_get_record($host, DNS_A + DNS_AAAA));
@@ -73,13 +75,14 @@ PHP Warning:  dns_get_record(): DNS Query failed in file.php on line 4
 bool(false)
 ```
 
-Right it returns only FALSE in this case, even if there is a A record for this domain. 
+It returns only FALSE in this case, even if there is a A record for this domain.
 
 
-##And the moral of this story
+## And the moral of this story
 
-Deploy IPv6 everywhere to prevent such things. Or maybe don't build software based on PHP. 
+Deploy IPv6 everywhere to prevent this!
+Or maybe don't build software based on PHP.
 I personally recommend both things. 
 
-If you are a observium pro user it's fixed, according the mailing list in revision 6357 and for 
-everyone else with the next half yearly release. 
+If you are a observium pro user it's fixed, according the mailing list in revision 6357 and \
+for everyone else with the next half yearly release.
