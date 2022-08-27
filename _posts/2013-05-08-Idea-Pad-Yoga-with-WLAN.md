@@ -20,8 +20,6 @@ And compile and install it with:
 
 > make && sudo make install
 
-
-
 After a restart you should have W-LAN. You need to do this step every time you update your kernel!
 You may need one of these packages to compile if you don't have them already.
 
