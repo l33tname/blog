@@ -153,7 +153,7 @@ This gives me a config which looks something like this:
   };
   networking.defaultGateway = { address = "192.168.17.1"; interface = "eth0"; };
   networking.defaultGateway6 = { address = "2001:XXXX:XXXX::1"; interface = "eth0"; };
-  networking.nameservers = [ "127.0.0.1" "8.8.8.8.8" ];
+  networking.nameservers = [ "127.0.0.1" "8.8.8.8" ];
 
   # List services that you want to enable:
   networking.hostFiles = [ /etc/nixos/hosts.txt ];
