@@ -134,6 +134,8 @@ Auth: sha1
 Cipher: aes 256
 ```
 
+(Update [Updated params](/blog/2023/05/09/Mikrotik-openvpn-updated-params/))
+
 ## Logs & Debugging
 
 No matter how hard I try usually something is not working.
