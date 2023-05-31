@@ -69,12 +69,15 @@ The `/root/backup.sh` script:
 REMOTE='backup@hostname-or-ip'
 KEY='/root/.ssh/backup-key'
 lockfile='/tmp/backup.pid'
+logfile=/var/log/backup/hostname_log.txt
+
+mkdir -p $(dirname $logfile)
 
 if [ ! -f $lockfile ]
 then
     echo $$ > $lockfile
 else
-    echo "$(date): early exit ${lockfile} does exist previous backup still running" | tee -a /var/log/backup/hostname_log.txt
+    echo "$(date): early exit ${lockfile} does exist previous backup still running" | tee -a $logfile
     exit 13
 fi
 
@@ -89,12 +92,12 @@ backup_dataset() {
     local_ds=$2
 
     syncoid --sshkey=${KEY} --recursive --no-privilege-elevation ${REMOTE}:${remote_ds} ${local_ds} >> /tmp/raw_backup.log 2>&1
-    code=$?hostname echo "$(date): pulling ${remote_ds} -> ${local_ds} exit code was: ${code}" >> /var/log/backup/hostname_log.txt
+    code=$?hostname echo "$(date): pulling ${remote_ds} -> ${local_ds} exit code was: ${code}" >> $logfile
     echo $code
 }
 
 start=$(date +%s)
-echo "$(date): backup started (log: /var/log/backup/hostname_log.txt)" | tee -a /var/log/backup/hostname_log.txt
+echo "$(date): backup started (log: $logfile)" | tee -a $logfile
 
 exit_code=0
 exit_code=$((exit_code + $(backup_dataset 'tank/backup' 'tank/backup')))
@@ -107,7 +110,7 @@ exit_code=$((exit_code + $(backup_dataset 'zroot/usr/home' 'tank/hostname-home')
 
 end=$(date +%s)
 runtime=$((end-start))
-echo "$(date): exit code: ${exit_code} script ran for ~$((runtime / 60)) minutes ($runtime seconds)" | tee -a /var/log/backup/hostname_log.txt
+echo "$(date): exit code: ${exit_code} script ran for ~$((runtime / 60)) minutes ($runtime seconds)" | tee -a $logfile
 
 curl -i -XPOST -u mrinflux:password 'https://influx.host.example:8086/write?db=thegreatedb' \
         --data-binary "backup,host=hostname.example status=${exit_code}i
