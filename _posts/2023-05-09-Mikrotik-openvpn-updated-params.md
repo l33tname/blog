@@ -48,3 +48,5 @@ Incoming Data Channel: Cipher 'AES-128-GCM' initialized with 128 bit key
 Connection reset, restarting [0]
 SIGUSR1[soft,connection-reset] received, client-instance restarting
 ```
+
+Hint: make sure you changed the OPNsense server config to use AES-256-GCM!
