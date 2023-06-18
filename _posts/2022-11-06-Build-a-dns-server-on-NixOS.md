@@ -85,6 +85,9 @@ networking.nameservers = [ "127.0.0.1" "8.8.8.8.8" ];
 
 #### Dnsmasq
 
+UPDATE: take a look at the [update configuration](/blog/2023/06/18/dnsmasq-on-NixOS-2305/)
+for NixOS 23.05 where i fetch the hosts file from a url.
+
 Last the main event to configure my dnsmasq server the same way I did on my Debian.
 And as you can see from the config I just created a `hosts.txt`
 file which will be merged with `/etc/hosts`.
