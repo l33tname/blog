@@ -30,3 +30,6 @@ services.dnsmasq.settings = { cache-size = 500; };
 As you can see with the latest version some config keys changed slightly.
 But the big new thing is that the hosts files is now fetched from my local git server.
 This allows me to version and edit this file in a singe place.
+
+Note: The hash [`nix-prefetch-url $url`](https://nixos.org/manual/nix/stable/command-ref/nix-prefetch-url.html) should be updated if the file changes, otherwise NixOS will happily
+continue to use the the file fetched last time.
