@@ -23,7 +23,7 @@ Many useful things are stolen and copied from these articles:
 * [dkim](http://www.dkim.org/info/dkim-faq.html)
 * [OpenSMTPD, Dovecot and SpamAssassin](http://guillaumevincent.com/2015/01/31/OpenSMTPD-Dovecot-SpamAssassin.html)
 * [Small Mail Server with Salt, Dovecot and OpenSMTPD](https://blog.al-shami.net/2015/01/howto-small-mail-server-with-salt-dovecot-and-opensmtpd/)
-* [BernardSpil/OpenSMTPd](https://wiki.freebsd.org/BernardSpil/OpenSMTPd)
+* [BernardSpil/OpenSMTPd](https://wiki.freebsd.org/BernardSpil/MailServer#OpenSMTPd)
 * [Running OpenSMTPd inside a FreeBSD Jail](https://github.com/OpenSMTPD/OpenSMTPD/wiki/Running-OpenSMTPd-inside-a-FreeBSD-Jail)
 
 

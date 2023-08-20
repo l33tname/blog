@@ -34,7 +34,7 @@ Which is very unfortunate because to setup many apps you need to login again whi
 So my first thought was to just use the built in TSL option and run it on the standard port 443.
 A good idea in theory in practice this would mean some weird hacks to allow to bind sub 1024 port 
 for non root user or running Gitea as root.
-Both not great options but I tried the first one regardless there is [a guide](https://devpro.media/gitea-server-freebsd/#allow-the-git-user-to-bind-to-the-https-port) 
+Both not great options but I tried the first one regardless there is [a guide](https://www.ricalo.com/blog/gitea-server-freebsd/#allow-the-git-user-to-bind-to-the-https-port)
 how to make that happen with `mac_portacl`. (I quickly gave up on this idea)
 
 So the next best thing to do is to finally the correct way and use a [nginx reverse proxy](https://docs.gitea.io/en-us/reverse-proxies/#nginx) with proper Let's Encrypt certificates.

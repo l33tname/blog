@@ -196,4 +196,4 @@ Last but not least I want to point to these four resources which helped me to un
 - <https://nix.dev/tutorials/installing-nixos-on-a-raspberry-pi>
 - <https://schauderbasis.de/posts/install_nixos_on_raspberry_pi_4/>
 - <https://dn42.eu/howto/nixos>
-- <https://skogsbrus.xyz/blog/2022/06/12/router/>
+- <https://skogsbrus.xyz/building-a-router-with-nixos/>

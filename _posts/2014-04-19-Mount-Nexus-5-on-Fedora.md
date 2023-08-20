@@ -8,7 +8,7 @@ layout: post
 
 I connect my phone with my laptop. And surprise it doesn't work. 
 
-So I google around and based on this: http://tacticalvim.wordpress.com/2012/12/08/mounting-nexus-4-via-mtp-in-fedora-17/ I found a solution. (at least for Fedora 20 and Nexus 5 with MTP).
+So I google around and based on this: [mounting nexus 4 via MTP in Fedora 17](https://web.archive.org/web/20121221055538/http://tacticalvim.wordpress.com/2012/12/08/mounting-nexus-4-via-mtp-in-fedora-17/) I found a solution. (at least for Fedora 20 and Nexus 5 with MTP).
 
 Install libs:
 

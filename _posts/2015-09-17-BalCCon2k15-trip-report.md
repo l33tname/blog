@@ -6,7 +6,7 @@ tags: [BalCCon2k15, serbia, conference]
 layout: post
 ---
 
-If you follow me on twitter you probably saw that I was at [BalCCon2k15]( https://2k15.balccon.org/index.php?title=Main_Page ).
+If you follow me on twitter you probably saw that I was at [BalCCon2k15](https://2k15.balccon.org).
 It was fun. I really enjoy this smaller events, the larger events like the CCCongress are very cool, but sometimes just 
 a bit too much to handle for me. So what is BalCCon2k15? It stands for Balkan Computer Congress and is organized by LUGoNS 
 the Linux Users Group of Novi Sad. This year was the 3th edition and everything was well planed and organized. Meaning the 
@@ -24,11 +24,14 @@ And they had a painted tank. I mean how cool is that.
 ![painted tank][2]
 
 
-I can't say much about the talks. Because I only attended three or four. If you planning on building your own backbone 
-you should watch "lecture: how you could build a backbone". And then there was that one talk which was very impressive,
-it was about "Touchless Control in Our World". It was held by [Onuralp SEZER]( https://twitter.com/thunderbirdtr ).
-He showed a 3D printed arm which can be controlled by Myo. I don't think there will be a recording for that, so here is 
-just an image of it. (And if [Onuralp SEZER]( https://twitter.com/thunderbirdtr ) writes about it I will include here a link
+I can't say much about the talks. Because I only attended three or four.
+If you planning on building your own backbone you should watch "lecture: how you could build a backbone".
+And then there was that one talk which was very impressive,
+it was about "Touchless Control in Our World".
+It was held by [Onuralp SEZER](https://twitter.com/thunderbirdtr).
+He showed a 3D printed arm which can be controlled by Myo.
+I don't think there will be a recording for that, so here is just an image of it.
+(And if [Onuralp SEZER]( https://twitter.com/thunderbirdtr ) writes about it I will include here a link
 to the project)
 
 ![3D printed arm][3]

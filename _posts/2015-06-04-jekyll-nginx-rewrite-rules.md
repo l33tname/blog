@@ -42,5 +42,5 @@ If you have any problems or find broken urls, just write me.
 
 For some weird reason all these redirection foo doesn't work when the blog upstream not on port 80 is. 
 
-  [1]: https://vec.io/posts/jekyll-clean-urls-with-nginx
+  [1]: https://web.archive.org/web/20210917120756/https://vec.io/posts/jekyll-clean-urls-with-nginx
   [2]: http://rickharrison.me/how-to-remove-trailing-slashes-from-jekyll-urls-using-nginx
