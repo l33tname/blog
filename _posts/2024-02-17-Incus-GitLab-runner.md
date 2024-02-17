@@ -15,7 +15,7 @@ not enough.
 Helpfully there is a [custom LXD GitLab runner](https://docs.gitlab.com/runner/executors/custom_examples/lxd.html) provided by GitLab.
 
 Based on that I created a custom Incus GitLab runner.
-Checkout: <https://github.com/fliiiix/github-incus-runner>
+Checkout: <https://github.com/fliiiix/gitlab-incus-runner>
 
 This can be easily integrated into the deployment system used to
 setup GitLab runners. (Thinks [Ansible](https://www.ansible.com/))
