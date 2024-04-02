@@ -9,7 +9,7 @@ layout: post
 Since you might be not interested in me hating NixOS, Linux and the world in general i put
 my little rant at the end of this article.
 The first part is how to cross build a NixOS image for a Raspberry Pi 3 B+ from Fedora.
-I used [compiling through binfmt QEMU]( https://nixos.wiki/wiki/NixOS_on_ARM#Compiling_through_binfmt_QEMU ).
+I used [compiling through binfmt QEMU]( https://wiki.nixos.org/wiki/NixOS_on_ARM#Compiling_through_binfmt_QEMU ).
 My Fedora laptop is a x86 system and we need to build a AArch64 image.
 
 I assume that nix is already installed and binfmt is installed and works.
@@ -140,15 +140,15 @@ either deadlocks or hangs for longer than i was willing to wait (more than 6 hou
 After I decided to try to cross build it was a real struggle to figure out how to do that.
 There are a lot of resources:
 
-* <https://nixos.wiki/wiki/NixOS_on_ARM#Compiling_through_binfmt_QEMU>
+* <https://wiki.nixos.org/wiki/NixOS_on_ARM#Compiling_through_binfmt_QEMU>
 * <https://github.com/hugolgst/nixos-raspberry-pi-cluster/tree/master>
 * <https://eipi.xyz/blog/installing-nixos-on-a-rasberry-pi-3/>
 * <https://discourse.nixos.org/t/cross-building-for-aarch64-with-nix-on-a-non-nixos-fedora-39-machine-wont-use-the-cache/35398/4>
-* <https://nixos.wiki/wiki/Linux_kernel>
+* <https://wiki.nixos.org/wiki/Linux_kernel>
 * <https://github.com/lucernae/nixos-pi/tree/main>
 * <https://myme.no/posts/2022-12-01-nixos-on-raspberrypi.html>
-* <https://nixos.wiki/wiki/NixOS_on_ARM/Raspberry_Pi>
-* <https://nixos.wiki/wiki/Overlays>
+* <https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi>
+* <https://wiki.nixos.org/wiki/Overlays>
 
 And a lot of them are not well structured or outdated.
 Which makes it very hard for a beginner like me to figure out where to start.
