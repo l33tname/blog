@@ -20,7 +20,7 @@ Using a older 1080p monitor solved that for me.
 
 #### Getting started
 
-Since I used a Raspberry Pi 3 I could use the latest AArch64 image from Hydra (source: <https://nixos.wiki/wiki/NixOS_on_ARM#Installation>).
+Since I used a Raspberry Pi 3 I could use the latest AArch64 image from Hydra (source: <https://wiki.nixos.org/wiki/NixOS_on_ARM#Installation>).
 In my case that was the release-22.05 <https://hydra.nixos.org/job/nixos/release-22.05/nixos.sd_image.aarch64-linux>.
 
 Unpacking and flashing this image to the SD Card works the same as with all other Raspberry Pi images.
