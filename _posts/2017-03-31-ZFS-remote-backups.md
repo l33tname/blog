@@ -16,7 +16,7 @@ which are modeled after the automatic ZFS snapshots in OpenSolaris. ([source](ht
 So the first step is to install it and enable it on all data sets which should be snapshotted.
 
 ```
-pkg zfstools
+pkg install zfstools
 zfs set com.sun:auto-snapshot=true DATASET
 ```
 
