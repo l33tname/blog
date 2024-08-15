@@ -92,7 +92,9 @@ backup_dataset() {
     local_ds=$2
 
     syncoid --sshkey=${KEY} --recursive --no-privilege-elevation ${REMOTE}:${remote_ds} ${local_ds} >> /tmp/raw_backup.log 2>&1
-    code=$?hostname echo "$(date): pulling ${remote_ds} -> ${local_ds} exit code was: ${code}" >> $logfile
+    code=$?
+
+    echo "$(date): pulling ${remote_ds} -> ${local_ds} exit code was: ${code}" >> $logfile
     echo $code
 }
 
