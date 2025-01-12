@@ -9,7 +9,7 @@ layout: post
 Since you might be not interested in me hating NixOS, Linux and the world in general i put
 my little rant at the end of this article.
 The first part is how to cross build a NixOS image for a Raspberry Pi 3 B+ from Fedora.
-I used [compiling through binfmt QEMU]( https://wiki.nixos.org/wiki/NixOS_on_ARM#Compiling_through_binfmt_QEMU ).
+I used [compiling through binfmt QEMU]( https://wiki.nixos.org/wiki/NixOS_on_ARM/Building_Images#Compiling_through_binfmt_QEMU ).
 My Fedora laptop is a x86 system and we need to build a AArch64 image.
 
 I assume that nix is already installed and binfmt is installed and works.
