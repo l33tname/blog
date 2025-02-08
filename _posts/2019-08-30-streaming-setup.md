@@ -2,7 +2,7 @@
 published: true
 description: Streaming with darkice
 categories: [blog]
-tags: [pulse, PulseAudio, stream, icecast, darkice, Fedora, Fedora 30]
+tags: [pulse, PulseAudio, stream, icecast, darkice, Fedora, Fedora 41]
 layout: post
 ---
 
@@ -16,21 +16,22 @@ it compiled and running with mp3 support.
 Amazingly darkice still exists and it's easier than ever to compile 
 it with mp3 support.
 
-The first step is to get the latest (darkice-1.4.tar.gz) version
-from [www.darkice.org](http://www.darkice.org/). And unpack it.
+The first step is to get the latest (darkice-1.5.tar.gz) version
+from [www.darkice.org](https://github.com/rafael2k/darkice). And unpack it.
 
 ```
-tar xf ~/Downloads/darkice-1.4.tar.gz -C .
+tar xf ~/Downloads/darkice-1.5.tar.gz -C .
 ```
 
 And to get it with mp3 support just install the headers.
 
 ```
-sudo dnf install lame-devel
+sudo dnf install gcc gcc-c++ lame-devel pulseaudio-libs-devel
 ```
 
 And then build it. 
-(Make sure you see something like `checking for lame library at /usr ... found at /usr` on configure)
+(Make sure you see something like `checking for lame library at /usr ... found at /usr` and
+`checking for libpulse-simple libpulse... yes` on configure)
 
 ```
 ./configure
@@ -53,7 +54,6 @@ pactl load-module module-null-sink sink_name=stream sink_properties=device.descr
 
 pactl load-module  module-loopback source=alsa_output.usb-Focusrite_Scarlett_Solo_USB-00.analog-stereo.monitor sink=stream latency_msec=1
 pactl load-module  module-loopback source=alsa_input.usb-Focusrite_Scarlett_Solo_USB-00.analog-stereo.remapped sink=stream latency_msec=1
-
 ```
 
 
