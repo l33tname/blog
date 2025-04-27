@@ -2,7 +2,7 @@
 published: true
 description: The PulseAudio setup to stream to icecast
 categories: [blog]
-tags: [pulse, PulseAudio, stream, icecast, darkice]
+tags: [pulse, PulseAudio, pipewire, stream, icecast, darkice]
 layout: post
 ---
 
@@ -16,6 +16,7 @@ You can find that with:
 
 ```
 pacmd list-sources | grep -e device.string -e 'name:'
+pactl list sources | grep -e device.string -e 'Name:' # with pipewire
 ```
 
 Which will provide you with output like this:
