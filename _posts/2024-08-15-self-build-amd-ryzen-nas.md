@@ -7,7 +7,7 @@ layout: post
 ---
 
 It is almost 5 years after building my [Xeon D NAS](/blog/2019/03/23/self-build-xeon-d-nas/),
-and my [Dell T20] started to fail.
+and my [Dell T20](/blog/2014/07/16/Dell-T20-Review/) started to fail.
 (Well actually as it turned out just the RAM was failing, the rest is still fine)
 
 And here is what I ended up with this round:
