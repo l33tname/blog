@@ -1,6 +1,5 @@
 plugins:
 - jekyll-paginate
-- jekyll-gist
 
 # karmdown config
 kramdown:
@@ -17,6 +16,6 @@ url:              https://l33tsource.com
 
 author:
   name: Sir l33tname
-  email: rss@l33t.name
+  email: hi@l33t.name
 
 paginate:         5

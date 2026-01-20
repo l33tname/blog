@@ -34,14 +34,14 @@ After all this is done, I can finally use my 'master' backup scripts. Well you p
 
 This allow everything which is necessary to receive snapshots on tank. You can check your config with `zfs allow tank`.
 
-{% gist fliiiix/71f3a754a01b558a7cd0 %}
+<script src="https://gist.github.com/fliiiix/71f3a754a01b558a7cd0.js"></script>
 
 Because you probably won't send everytime the entire dataset you can use the incremental script. That's what I do.
 Every night with cron.
 
 > 30 2 * * * /root/backup/backup_incremental >> /root/backup/backup.log
 
-{% gist fliiiix/764dc878e2a0a590c58a %}
+<script src="https://gist.github.com/fliiiix/764dc878e2a0a590c58a.js"></script>
 
 <s>The only thing what I can thought off is missing in my scripts is the case when you run a backup while a backup process is still running.
 I will probably fix this for the future version.</s>
