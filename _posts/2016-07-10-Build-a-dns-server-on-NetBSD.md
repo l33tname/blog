@@ -18,8 +18,8 @@ Warning: as always double check that you are flashing your SD card and not somet
 
 ```
 wget https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.0/evbarm-earmv7hf/binary/gzimg/armv7.img.gz
-gunzip rpi.img.gz
-sudo dd if=rpi.img of=/dev/sdX
+gunzip armv7.img.gz
+sudo dd if=armv7.img of=/dev/sdX
 ```
 
 And thats all preparation needed, now you can plug a keyboard, ethernet, the SD card and HDMI cable in your 
